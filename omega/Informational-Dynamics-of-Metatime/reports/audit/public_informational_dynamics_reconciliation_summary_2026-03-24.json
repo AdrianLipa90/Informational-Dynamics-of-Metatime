@@ -1,0 +1,15 @@
+{
+  "date": "2026-03-24",
+  "source_repo": "AdrianLipa90/Informational-Dynamics-of-Metatime",
+  "added_files": 8,
+  "modified_files": 3,
+  "omitted_artifacts": [
+    "CIEL_OMEGA_COMPLETE_SYSTEM_WITH_README.tar.gz",
+    "Logo1.png"
+  ],
+  "notes": [
+    "restored public top-level config layer",
+    "restored public top-level LICENSE",
+    "mirrored relational contract pair into runtime config layer"
+  ]
+}

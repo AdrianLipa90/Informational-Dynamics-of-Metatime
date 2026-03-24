@@ -1,0 +1,491 @@
+{
+  "engine": "phase_component_pass_v1",
+  "params": {
+    "dt": 0.0205,
+    "tau_eta": 0.0085,
+    "tau_reg": 0.0024,
+    "sigma": 0.20992708860770198,
+    "beta": 0.8858849039288708,
+    "gamma": 0.3383621712598693,
+    "I0": 0.008114359738066937,
+    "mesh_boost": 0.9902072303068182,
+    "tension_weight": 0.24841695319131418,
+    "closure_weight": 0.08945494489662148,
+    "use_zeta_pole": true,
+    "zeta_coupling_scale": 0.35,
+    "zeta_tetra_weight": 0.5,
+    "zeta_amplitude": 0.35,
+    "zeta_relax": 0.08,
+    "zeta_global_rotation": 0.0,
+    "zeta_heisenberg_alpha": 8.0,
+    "zeta_i0_scale": 1.0,
+    "use_relational_lagrangian": true,
+    "kappa_H": 1.0,
+    "lambda_tension": 0.15,
+    "lambda_distortion": 1.0,
+    "lambda_zeta_tetra": 1.0,
+    "alpha_spin": 4.0,
+    "mu_phi": 0.18,
+    "mu_rho": 0.14,
+    "epsilon_hom": 0.22,
+    "spin_vorticity_gain": 0.2,
+    "relax_amp": 0.28,
+    "grad_eps": 0.001,
+    "use_euler_leak_rotation": true,
+    "D_f": 2.57,
+    "euler_angular_gain": 1.0,
+    "zeta_phase0": 0.0
+  },
+  "phases": {
+    "sectors": {
+      "constraints": {
+        "tau": 0.162228196237,
+        "theta": 0.472768253373,
+        "rho": 0.236334005786,
+        "amplitude": 0.888360800231,
+        "spin": -0.999533363863,
+        "phi_local": 0.1815361696,
+        "berry_phase": 0.014086540848,
+        "effective_phase": 0.195622710448,
+        "closure": {
+          "lhs_abs": 0.267858343968,
+          "lhs_phase": -0.647260498619,
+          "rhs_phase": 0.195622710448,
+          "phase_error": -0.842883209066,
+          "magnitude_error": -0.732141656032,
+          "residual": 0.845771107301
+        }
+      },
+      "fields": {
+        "tau": 0.241564773909,
+        "theta": 0.664885244559,
+        "rho": 0.332161945686,
+        "amplitude": 0.831815899209,
+        "spin": -0.983782866809,
+        "phi_local": 0.991082785383,
+        "berry_phase": -0.00649625092,
+        "effective_phase": 0.984586534463,
+        "closure": {
+          "lhs_abs": 0.188686711417,
+          "lhs_phase": -0.901358455798,
+          "rhs_phase": 0.984586534463,
+          "phase_error": -1.885944990261,
+          "magnitude_error": -0.811313288583,
+          "residual": 1.073579301779
+        }
+      },
+      "runtime": {
+        "tau": 0.408080294403,
+        "theta": 1.563479716314,
+        "rho": 0.758515515824,
+        "amplitude": 0.906438001081,
+        "spin": 0.657822642169,
+        "phi_local": 2.106455626089,
+        "berry_phase": 0.006000605742,
+        "effective_phase": 2.11245623183,
+        "closure": {
+          "lhs_abs": 0.117248931863,
+          "lhs_phase": -0.366437837995,
+          "rhs_phase": 2.11245623183,
+          "phase_error": -2.478894069826,
+          "magnitude_error": -0.882751068137,
+          "residual": 1.0948105502
+        }
+      },
+      "memory": {
+        "tau": 0.305484200731,
+        "theta": 1.09274202646,
+        "rho": 0.542804594318,
+        "amplitude": 0.859336013847,
+        "spin": 0.994283354498,
+        "phi_local": 2.921087742237,
+        "berry_phase": -0.054753531239,
+        "effective_phase": 2.866334210998,
+        "closure": {
+          "lhs_abs": 0.18208749211,
+          "lhs_phase": -0.758912373823,
+          "rhs_phase": 2.866334210998,
+          "phase_error": 2.657938722359,
+          "magnitude_error": -0.81791250789,
+          "residual": 1.164285440061
+        }
+      },
+      "bridge": {
+        "tau": 0.193899851976,
+        "theta": 1.422894091999,
+        "rho": 0.697311303192,
+        "amplitude": 0.959517693004,
+        "spin": 0.999469565824,
+        "phi_local": 4.282621022535,
+        "berry_phase": 0.041901761904,
+        "effective_phase": 4.32452278444,
+        "closure": {
+          "lhs_abs": 0.391273869798,
+          "lhs_phase": -0.322305673427,
+          "rhs_phase": 4.32452278444,
+          "phase_error": 1.636356849312,
+          "magnitude_error": -0.608726130202,
+          "residual": 1.097434615498
+        }
+      },
+      "vocabulary": {
+        "tau": 0.182255925256,
+        "theta": 0.646128498744,
+        "rho": 0.322821471533,
+        "amplitude": 0.821400832285,
+        "spin": 0.427967106409,
+        "phi_local": 5.244118439175,
+        "berry_phase": 0.000884588997,
+        "effective_phase": 5.245003028172,
+        "closure": {
+          "lhs_abs": 0.334550620804,
+          "lhs_phase": -0.432891140791,
+          "rhs_phase": 5.245003028172,
+          "phase_error": 0.605291138217,
+          "magnitude_error": -0.665449379196,
+          "residual": 0.749464983732
+        }
+      }
+    },
+    "pairs": {
+      "constraints->fields": {
+        "tau_ratio_log": -0.398133689265,
+        "tau_factor": 0.165560423439,
+        "omega_ij": 0.062117678332,
+        "d_ij": 0.508884030893,
+        "transport_abs": 0.152643722399,
+        "transport_phase": -0.117157992111,
+        "phase_formula": "arg(A_ij)=beta*Omega_ij-gamma*d_ij"
+      },
+      "constraints->runtime": {
+        "tau_ratio_log": -0.922459992242,
+        "tau_factor": 6.4138683e-05,
+        "omega_ij": 0.455282850667,
+        "d_ij": 2.241147103485,
+        "transport_abs": 5.6632391e-05,
+        "transport_phase": -0.354991195624,
+        "phase_formula": "arg(A_ij)=beta*Omega_ij-gamma*d_ij"
+      },
+      "constraints->memory": {
+        "tau_ratio_log": -0.632894098366,
+        "tau_factor": 0.010624480937,
+        "omega_ij": 0.388624298759,
+        "d_ij": 1.66570597441,
+        "transport_abs": 0.009381074423,
+        "transport_phase": -0.219335490612,
+        "phase_formula": "arg(A_ij)=beta*Omega_ij-gamma*d_ij"
+      },
+      "constraints->bridge": {
+        "tau_ratio_log": -0.178337836037,
+        "tau_factor": 0.697087425465,
+        "omega_ij": -0.448688197159,
+        "d_ij": 2.059267600361,
+        "transport_abs": 0.690261008851,
+        "transport_phase": -1.094264356897,
+        "phase_formula": "arg(A_ij)=beta*Omega_ij-gamma*d_ij"
+      },
+      "constraints->vocabulary": {
+        "tau_ratio_log": -0.116407919246,
+        "tau_factor": 0.857491536354,
+        "omega_ij": -0.094048020904,
+        "d_ij": 0.705305964634,
+        "transport_abs": 0.652613893756,
+        "transport_phase": -0.32196457956,
+        "phase_formula": "arg(A_ij)=beta*Omega_ij-gamma*d_ij"
+      },
+      "fields->constraints": {
+        "tau_ratio_log": 0.398133689265,
+        "tau_factor": 0.165560423439,
+        "omega_ij": -0.062117678332,
+        "d_ij": 0.508884030893,
+        "transport_abs": 0.152643722399,
+        "transport_phase": -0.227216219114,
+        "phase_formula": "arg(A_ij)=beta*Omega_ij-gamma*d_ij"
+      },
+      "fields->runtime": {
+        "tau_ratio_log": -0.524326302977,
+        "tau_factor": 0.044194696434,
+        "omega_ij": 0.315289547198,
+        "d_ij": 1.920832067437,
+        "transport_abs": 0.039022493319,
+        "transport_phase": -0.370626658734,
+        "phase_formula": "arg(A_ij)=beta*Omega_ij-gamma*d_ij"
+      },
+      "fields->memory": {
+        "tau_ratio_log": -0.234760409101,
+        "tau_factor": 0.53510524608,
+        "omega_ij": 0.340535104121,
+        "d_ij": 1.626889940997,
+        "transport_abs": 0.052986508364,
+        "transport_phase": -0.248803104838,
+        "phase_formula": "arg(A_ij)=beta*Omega_ij-gamma*d_ij"
+      },
+      "fields->bridge": {
+        "tau_ratio_log": 0.219795853228,
+        "tau_factor": 0.578038137981,
+        "omega_ij": -0.731600519203,
+        "d_ij": 2.407419303772,
+        "transport_abs": 0.510389055647,
+        "transport_phase": -1.462693478426,
+        "phase_formula": "arg(A_ij)=beta*Omega_ij-gamma*d_ij"
+      },
+      "fields->vocabulary": {
+        "tau_ratio_log": 0.281725770019,
+        "tau_factor": 0.406364343826,
+        "omega_ij": -0.209620482145,
+        "d_ij": 1.174989580222,
+        "transport_abs": 0.33896904936,
+        "transport_phase": -0.583271646258,
+        "phase_formula": "arg(A_ij)=beta*Omega_ij-gamma*d_ij"
+      },
+      "runtime->constraints": {
+        "tau_ratio_log": 0.922459992242,
+        "tau_factor": 6.4138683e-05,
+        "omega_ij": -0.455282850667,
+        "d_ij": 2.241147103485,
+        "transport_abs": 5.6632391e-05,
+        "transport_phase": -1.161647604471,
+        "phase_formula": "arg(A_ij)=beta*Omega_ij-gamma*d_ij"
+      },
+      "runtime->fields": {
+        "tau_ratio_log": 0.524326302977,
+        "tau_factor": 0.044194696434,
+        "omega_ij": -0.315289547198,
+        "d_ij": 1.920832067437,
+        "transport_abs": 0.039022493319,
+        "transport_phase": -0.929247159193,
+        "phase_formula": "arg(A_ij)=beta*Omega_ij-gamma*d_ij"
+      },
+      "runtime->memory": {
+        "tau_ratio_log": 0.289565893876,
+        "tau_factor": 0.386229823899,
+        "omega_ij": 0.286356686388,
+        "d_ij": 1.689418595073,
+        "transport_abs": 0.356096927012,
+        "transport_phase": -0.317956278386,
+        "phase_formula": "arg(A_ij)=beta*Omega_ij-gamma*d_ij"
+      },
+      "runtime->bridge": {
+        "tau_ratio_log": 0.744122156205,
+        "tau_factor": 0.001869019967,
+        "omega_ij": 1.020280817199,
+        "d_ij": 3.497586983524,
+        "transport_abs": 0.001650284425,
+        "transport_phase": -0.279599752191,
+        "phase_formula": "arg(A_ij)=beta*Omega_ij-gamma*d_ij"
+      },
+      "runtime->vocabulary": {
+        "tau_ratio_log": 0.806052072996,
+        "tau_factor": 0.000628888139,
+        "omega_ij": 0.862531962939,
+        "d_ij": 2.654992436527,
+        "transport_abs": 0.000236325876,
+        "transport_phase": -0.134244960378,
+        "phase_formula": "arg(A_ij)=beta*Omega_ij-gamma*d_ij"
+      },
+      "memory->constraints": {
+        "tau_ratio_log": 0.632894098366,
+        "tau_factor": 0.010624480937,
+        "omega_ij": -0.388624298759,
+        "d_ij": 1.66570597441,
+        "transport_abs": 0.009381074423,
+        "transport_phase": -0.907888289752,
+        "phase_formula": "arg(A_ij)=beta*Omega_ij-gamma*d_ij"
+      },
+      "memory->fields": {
+        "tau_ratio_log": 0.234760409101,
+        "tau_factor": 0.53510524608,
+        "omega_ij": -0.340535104121,
+        "d_ij": 1.626889940997,
+        "transport_abs": 0.052986508364,
+        "transport_phase": -0.852152920835,
+        "phase_formula": "arg(A_ij)=beta*Omega_ij-gamma*d_ij"
+      },
+      "memory->runtime": {
+        "tau_ratio_log": -0.289565893876,
+        "tau_factor": 0.386229823899,
+        "omega_ij": -0.286356686388,
+        "d_ij": 1.689418595073,
+        "transport_abs": 0.356096927012,
+        "transport_phase": -0.825314409605,
+        "phase_formula": "arg(A_ij)=beta*Omega_ij-gamma*d_ij"
+      },
+      "memory->bridge": {
+        "tau_ratio_log": 0.454556262329,
+        "tau_factor": 0.09591683391,
+        "omega_ij": 0.504610834082,
+        "d_ij": 2.25925602067,
+        "transport_abs": 0.094046762529,
+        "transport_phase": -0.317419652313,
+        "phase_formula": "arg(A_ij)=beta*Omega_ij-gamma*d_ij"
+      },
+      "memory->vocabulary": {
+        "tau_ratio_log": 0.51648617912,
+        "tau_factor": 0.048481738239,
+        "omega_ij": 0.421906760295,
+        "d_ij": 1.785210343479,
+        "transport_abs": 0.038079126813,
+        "transport_phase": -0.230286818164,
+        "phase_formula": "arg(A_ij)=beta*Omega_ij-gamma*d_ij"
+      },
+      "bridge->constraints": {
+        "tau_ratio_log": 0.178337836037,
+        "tau_factor": 0.697087425465,
+        "omega_ij": 0.448688197159,
+        "d_ij": 2.059267600361,
+        "transport_abs": 0.690261008851,
+        "transport_phase": -0.299292156029,
+        "phase_formula": "arg(A_ij)=beta*Omega_ij-gamma*d_ij"
+      },
+      "bridge->fields": {
+        "tau_ratio_log": -0.219795853228,
+        "tau_factor": 0.578038137981,
+        "omega_ij": 0.731600519203,
+        "d_ij": 2.407419303772,
+        "transport_abs": 0.510389055647,
+        "transport_phase": -0.166465767089,
+        "phase_formula": "arg(A_ij)=beta*Omega_ij-gamma*d_ij"
+      },
+      "bridge->runtime": {
+        "tau_ratio_log": -0.744122156205,
+        "tau_factor": 0.001869019967,
+        "omega_ij": -1.020280817199,
+        "d_ij": 3.497586983524,
+        "transport_abs": 0.001650284425,
+        "transport_phase": -2.08730249964,
+        "phase_formula": "arg(A_ij)=beta*Omega_ij-gamma*d_ij"
+      },
+      "bridge->memory": {
+        "tau_ratio_log": -0.454556262329,
+        "tau_factor": 0.09591683391,
+        "omega_ij": -0.504610834082,
+        "d_ij": 2.25925602067,
+        "transport_abs": 0.094046762529,
+        "transport_phase": -1.211473892858,
+        "phase_formula": "arg(A_ij)=beta*Omega_ij-gamma*d_ij"
+      },
+      "bridge->vocabulary": {
+        "tau_ratio_log": 0.061929916791,
+        "tau_factor": 0.957418668145,
+        "omega_ij": 0.225082230956,
+        "d_ij": 1.513530966178,
+        "transport_abs": 0.766018653204,
+        "transport_phase": -0.312724673438,
+        "phase_formula": "arg(A_ij)=beta*Omega_ij-gamma*d_ij"
+      },
+      "vocabulary->constraints": {
+        "tau_ratio_log": 0.116407919246,
+        "tau_factor": 0.857491536354,
+        "omega_ij": 0.094048020904,
+        "d_ij": 0.705305964634,
+        "transport_abs": 0.652613893756,
+        "transport_phase": -0.155333135632,
+        "phase_formula": "arg(A_ij)=beta*Omega_ij-gamma*d_ij"
+      },
+      "vocabulary->fields": {
+        "tau_ratio_log": -0.281725770019,
+        "tau_factor": 0.406364343826,
+        "omega_ij": 0.209620482145,
+        "d_ij": 1.174989580222,
+        "transport_abs": 0.33896904936,
+        "transport_phase": -0.211872404885,
+        "phase_formula": "arg(A_ij)=beta*Omega_ij-gamma*d_ij"
+      },
+      "vocabulary->runtime": {
+        "tau_ratio_log": -0.806052072996,
+        "tau_factor": 0.000628888139,
+        "omega_ij": -0.862531962939,
+        "d_ij": 2.654992436527,
+        "transport_abs": 0.000236325876,
+        "transport_phase": -1.662453050626,
+        "phase_formula": "arg(A_ij)=beta*Omega_ij-gamma*d_ij"
+      },
+      "vocabulary->memory": {
+        "tau_ratio_log": -0.51648617912,
+        "tau_factor": 0.048481738239,
+        "omega_ij": -0.421906760295,
+        "d_ij": 1.785210343479,
+        "transport_abs": 0.038079126813,
+        "transport_phase": -0.977808477786,
+        "phase_formula": "arg(A_ij)=beta*Omega_ij-gamma*d_ij"
+      },
+      "vocabulary->bridge": {
+        "tau_ratio_log": -0.061929916791,
+        "tau_factor": 0.957418668145,
+        "omega_ij": -0.225082230956,
+        "d_ij": 1.513530966178,
+        "transport_abs": 0.766018653204,
+        "transport_phase": -0.711518574532,
+        "phase_formula": "arg(A_ij)=beta*Omega_ij-gamma*d_ij"
+      }
+    },
+    "zeta": {
+      "enabled": true,
+      "effective_tau": 0.3645,
+      "effective_phase": 0.004766952652,
+      "D_f": 2.57,
+      "euler_leak_angle": 0.895353906273,
+      "vertices": [
+        {
+          "name": "Z0",
+          "theta": 0.0,
+          "phi": 0.004766952652,
+          "tau": 0.489,
+          "weight": 0.25,
+          "coupling_abs": 5.5702023e-05
+        },
+        {
+          "name": "Z1",
+          "theta": 1.910633236249,
+          "phi": 0.004766952652,
+          "tau": 0.353,
+          "weight": 0.25,
+          "coupling_abs": 5.5702023e-05
+        },
+        {
+          "name": "Z2",
+          "theta": 1.910633236249,
+          "phi": 2.099162055046,
+          "tau": 0.263,
+          "weight": 0.25,
+          "coupling_abs": 5.5702023e-05
+        },
+        {
+          "name": "Z3",
+          "theta": 1.910633236249,
+          "phi": -2.089628149741,
+          "tau": 0.353,
+          "weight": 0.25,
+          "coupling_abs": 5.5702023e-05
+        }
+      ]
+    },
+    "global": {
+      "holonomy_defect_abs": 0.278322633991,
+      "holonomy_defect_phase": 1.199501441949,
+      "R_H": 0.077463488592,
+      "T_glob": 2.583958108544,
+      "Lambda_glob": 0.096815196635,
+      "closure_penalty": 6.188132507053,
+      "spectral_radius_A": 1.57713404743,
+      "spectral_gap_A": 0.746659326181,
+      "fiedler_L": 0.160953468733
+    }
+  },
+  "observation_check": {
+    "truthful_general_mean_H": 0.21873157442875774,
+    "truthful_qa_mean_H": 0.2539757847158979,
+    "truthful_summarization_mean_H": 0.007699789400191663,
+    "hallucinated_general_mean_H": 2.128904990151081,
+    "repo_R_H_vs_truthful_general_ratio": 0.35414863535045027,
+    "repo_R_H_vs_truthful_qa_ratio": 0.3050034422716801,
+    "repo_R_H_below_truthful_general": true,
+    "repo_R_H_below_truthful_qa": true,
+    "repo_R_H_far_below_hallucinated_general": true,
+    "triangle_loop_phase_rad": -0.26644310749634853,
+    "triangle_loop_phase_deg": -15.266065539891276,
+    "zeta_effective_phase_rad": 0.004766952652,
+    "method_note": "Observed benchmark data analyzed with a proxy phase encoding. The phase variables are engineered observables derived from lexical support and truth labels, not directly observed quantities.",
+    "encoding_note": "Ideal coherence is represented by equilateral phases (0, 2\u03c0/3, 4\u03c0/3). Lack of alignment and reduced truth score perturb this configuration."
+  }
+}

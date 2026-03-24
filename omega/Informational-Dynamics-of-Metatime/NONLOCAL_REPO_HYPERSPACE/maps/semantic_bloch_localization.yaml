@@ -1,0 +1,44 @@
+meta:
+  status: scaffold
+  meaning: "Bloch-like semantic localization of top-level repository sectors"
+
+convention:
+  theta: activation / execution inclination
+  phi: semantic phase
+  radius: coherence relevance weight
+
+sectors:
+  - id: manifests
+    theta: 0.30
+    phi: 0.10
+    radius: 0.95
+    role: explicit_dependency_memory
+  - id: systems
+    theta: 1.10
+    phi: 0.60
+    radius: 1.00
+    role: executable_core
+  - id: docs
+    theta: 0.45
+    phi: 1.40
+    radius: 0.90
+    role: semantic_orientation
+  - id: research
+    theta: 1.55
+    phi: 2.10
+    radius: 0.88
+    role: exploratory_dynamics
+  - id: integrations
+    theta: 0.95
+    phi: 2.80
+    radius: 0.82
+    role: transport_and_execution
+  - id: FAQ
+    theta: 0.25
+    phi: 3.40
+    radius: 0.74
+    role: stabilizing_human_interface
+
+notes:
+  - "Coordinates are initial semantic seeds, not measured values."
+  - "Later versions should be inferred from actual dependency centrality and command flow."

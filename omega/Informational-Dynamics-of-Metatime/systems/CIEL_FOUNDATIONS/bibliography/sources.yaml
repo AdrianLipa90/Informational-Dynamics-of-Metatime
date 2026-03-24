@@ -1,0 +1,49 @@
+sources:
+  - id: SRC-FORMAL-SM
+    title: Formal_SM.pdf
+    type: pdf
+    origin: Metatime-main/documents
+  - id: SRC-KAPPA-GEOM
+    title: Kappa_from_geometry.pdf
+    type: pdf
+    origin: Metatime-main/documents
+  - id: SRC-LAMBDA-META
+    title: Lambda_meta.pdf
+    type: pdf
+    origin: Metatime-main/documents
+  - id: SRC-NEUTRINOTIME14
+    title: Neutrinotime14.pdf
+    type: pdf
+    origin: Metatime-main/documents
+  - id: SRC-COHERENCE-LAW
+    title: Coherence_law_application.pdf
+    type: pdf
+    origin: Metatime-main/documents
+  - id: SRC-CORRECTIONS-2
+    title: Corrections (2).pdf
+    type: pdf
+    origin: Metatime-main/documents
+  - id: SRC-CORRECTIONS-3
+    title: Corrections (3).pdf
+    type: pdf
+    origin: Metatime-main/documents
+  - id: SRC-SM-MTHEORY
+    title: SM_and_M_Theory_generalisation.pdf
+    type: pdf
+    origin: Metatime-main/documents
+  - id: SRC-METAEFT
+    title: MetaEFT.pdf
+    type: pdf
+    origin: Metatime-main/documents
+  - id: SRC-CALABI-YAU
+    title: Calabi_Yau.pdf
+    type: pdf
+    origin: Metatime-main/documents
+  - id: SRC-COLLATZ-EM1
+    title: Collatz_emergence1.pdf
+    type: pdf
+    origin: Metatime-main/documents
+  - id: SRC-FA00B095
+    title: fa00b095.md
+    type: markdown
+    origin: Metatime-main/documents

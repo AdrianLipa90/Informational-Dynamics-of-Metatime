@@ -1,0 +1,36 @@
+{
+  "title": "orbital_state_manifest",
+  "type": "object",
+  "properties": {
+    "coherence_index": {
+      "type": "number"
+    },
+    "topological_charge_global": {
+      "type": "number"
+    },
+    "phase_lock_error": {
+      "type": "number"
+    },
+    "beat_frequency_target_hz": {
+      "type": "number"
+    },
+    "spectral_radius_A": {
+      "type": "number"
+    },
+    "fiedler_L": {
+      "type": "number"
+    },
+    "zeta_enabled": {
+      "type": "boolean"
+    },
+    "timestamp": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "coherence_index",
+    "phase_lock_error",
+    "beat_frequency_target_hz",
+    "zeta_enabled"
+  ]
+}

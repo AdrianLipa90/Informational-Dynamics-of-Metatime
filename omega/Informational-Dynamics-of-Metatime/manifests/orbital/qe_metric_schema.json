@@ -1,0 +1,41 @@
+{
+  "quality": {
+    "repo": [
+      "Theta",
+      "DeltaC",
+      "D_sem"
+    ],
+    "tensor": [
+      "collapse_accuracy",
+      "return_accuracy",
+      "field_coherence_quality"
+    ],
+    "hybrid": [
+      "loop_closure_rate",
+      "recursion_fidelity",
+      "return_stability"
+    ]
+  },
+  "energy": {
+    "repo": [
+      "cpu_time",
+      "simulation_steps",
+      "memory_load"
+    ],
+    "tensor": [
+      "field_activity_total",
+      "wall_clock_latency",
+      "gpu_or_system_load"
+    ],
+    "hybrid": [
+      "processing_cost",
+      "actuation_cost",
+      "sensor_latency"
+    ]
+  },
+  "efficiency": {
+    "formula": "eta_QE^(k)=Q_k/(E_k+epsilon)",
+    "global": "eta_global=sum_k omega_k * eta_QE^(k)"
+  },
+  "note": "Theta and H must not be double-counted when Theta already depends on H."
+}

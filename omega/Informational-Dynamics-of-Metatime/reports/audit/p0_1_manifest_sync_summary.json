@@ -1,0 +1,46 @@
+{
+  "scope": "systems/CIEL_OMEGA_COMPLETE_SYSTEM",
+  "date": "2026-03-24",
+  "status": "completed",
+  "excluded_from_fingerprint": [
+    "CANONICAL_BUILD_MANIFEST.md",
+    "__pycache__/",
+    ".pytest_cache/",
+    "*.pyc",
+    "*.pyo"
+  ],
+  "whole_system_payload": {
+    "file_count": 307,
+    "fingerprint_path_size_sha256": "b701c02d9d5f706ea39861d1b6acf23bae3dcd0bd831757e18a4c5f3b4e73d6b"
+  },
+  "code_docs_payload": {
+    "file_count": 304,
+    "fingerprint_path_size_sha256": "d30e40f5236b8b44f61d1da284c509ba66436d11a2703ee53cbf635f7d08ff82"
+  },
+  "persistent_data_payload": {
+    "file_count": 3,
+    "fingerprint_path_size_sha256": "cbe0887bb7b105422ad7eb92a9bbff5de2fa1303f48be182806f91eb45aae696",
+    "artifacts": [
+      {
+        "path": "CIEL_MEMORY_SYSTEM/TSM/ledger/memory_ledger.db",
+        "size_bytes": 12288,
+        "sha256": "a34926b730016cc6b0b897680421127d51d65b3021a6dba079f0d368b37c2700"
+      },
+      {
+        "path": "CIEL_MEMORY_SYSTEM/WPM/wave_snapshots/wave_archive.h5",
+        "size_bytes": 1832,
+        "sha256": "7859c8aaf311c22e68f5c754b1a0bf31f26c1fcba902da4710d48f46446e8ea8"
+      },
+      {
+        "path": "ciel_omega/CIEL_MEMORY_SYSTEM/TSM/ledger/memory_ledger.db",
+        "size_bytes": 12288,
+        "sha256": "1131d054a13e88f00911c71c1e48f33727ca3f0f7d93f6516cb9ea11e97bdfb9"
+      }
+    ]
+  },
+  "policy": {
+    "authoritative_packaged_runtime_data_layer": "systems/CIEL_OMEGA_COMPLETE_SYSTEM/CIEL_MEMORY_SYSTEM",
+    "legacy_compatibility_mirror": "systems/CIEL_OMEGA_COMPLETE_SYSTEM/ciel_omega/CIEL_MEMORY_SYSTEM/TSM/ledger/memory_ledger.db",
+    "defer_resolution_to": "P1"
+  }
+}

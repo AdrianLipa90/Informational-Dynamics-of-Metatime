@@ -1,0 +1,61 @@
+source_archive	path	size
+CIEL-Hutter-Method-v2 (1).zip	TODO/external_references/CIEL-Hutter-Method-v2/README.md	1345
+CIEL-Hutter-Method-v2 (1).zip	TODO/external_references/CIEL-Hutter-Method-v2/blockdict.py	2322
+CIEL-Hutter-Method-v2 (1).zip	TODO/external_references/CIEL-Hutter-Method-v2/cielfeat.py	2679
+CIEL-Hutter-Method-v2 (1).zip	TODO/external_references/CIEL-Hutter-Method-v2/demo_pipeline.py	2685
+CIEL-Hutter-Method-v2 (1).zip	TODO/external_references/CIEL-Hutter-Method-v2/mixer.py	2527
+CIEL-Hutter-Method-v2 (1).zip	TODO/external_references/CIEL-Hutter-Method-v2/ngram.py	1271
+CIEL-Hutter-Method-v2 (1).zip	TODO/external_references/CIEL-Hutter-Method-v2/numerics.py	3114
+CIEL-Hutter-Method-v2 (1).zip	TODO/external_references/CIEL-Hutter-Method-v2/rst_fsm.py	3071
+Origins-Of-Life-claude-explore-repository-SsBL1.zip	TODO/external_references/Origins-Of-Life-claude-explore-repository-SsBL1/.github/FUNDING.yml	891
+Origins-Of-Life-claude-explore-repository-SsBL1.zip	TODO/external_references/Origins-Of-Life-claude-explore-repository-SsBL1/.gitignore	96
+Origins-Of-Life-claude-explore-repository-SsBL1.zip	TODO/external_references/Origins-Of-Life-claude-explore-repository-SsBL1/LICENSE 	5137
+Origins-Of-Life-claude-explore-repository-SsBL1.zip	TODO/external_references/Origins-Of-Life-claude-explore-repository-SsBL1/OriginOfLife.v2.0.py	19724
+Origins-Of-Life-claude-explore-repository-SsBL1.zip	TODO/external_references/Origins-Of-Life-claude-explore-repository-SsBL1/OriginOfLife.v3.0_2Src.py	13373
+Origins-Of-Life-claude-explore-repository-SsBL1.zip	TODO/external_references/Origins-Of-Life-claude-explore-repository-SsBL1/OriginOfLife.v4.0_ET.py	17234
+Origins-Of-Life-claude-explore-repository-SsBL1.zip	TODO/external_references/Origins-Of-Life-claude-explore-repository-SsBL1/OriginsKahlerEulerBerry.py	7678
+Origins-Of-Life-claude-explore-repository-SsBL1.zip	TODO/external_references/Origins-Of-Life-claude-explore-repository-SsBL1/Proof-of-concept.py	53566
+Origins-Of-Life-claude-explore-repository-SsBL1.zip	TODO/external_references/Origins-Of-Life-claude-explore-repository-SsBL1/Proof-of-concept2.py	25182
+Origins-Of-Life-claude-explore-repository-SsBL1.zip	TODO/external_references/Origins-Of-Life-claude-explore-repository-SsBL1/README.md	20656
+Origins-Of-Life-claude-explore-repository-SsBL1.zip	TODO/external_references/Origins-Of-Life-claude-explore-repository-SsBL1/ciel-cmb-analyzer.zip.zip	14404
+Origins-Of-Life-claude-explore-repository-SsBL1.zip	TODO/external_references/Origins-Of-Life-claude-explore-repository-SsBL1/new holonomy/originsHolo1	29501
+Origins-Of-Life-claude-explore-repository-SsBL1.zip	TODO/external_references/Origins-Of-Life-claude-explore-repository-SsBL1/new holonomy/originsHolo2.py	37411
+Origins-Of-Life-claude-explore-repository-SsBL1.zip	TODO/external_references/Origins-Of-Life-claude-explore-repository-SsBL1/new holonomy/originsphaseholoext.py	74465
+Origins-Of-Life-claude-explore-repository-SsBL1.zip	TODO/external_references/Origins-Of-Life-claude-explore-repository-SsBL1/origins/__init__.py	830
+Origins-Of-Life-claude-explore-repository-SsBL1.zip	TODO/external_references/Origins-Of-Life-claude-explore-repository-SsBL1/origins/analysis/__init__.py	145
+Origins-Of-Life-claude-explore-repository-SsBL1.zip	TODO/external_references/Origins-Of-Life-claude-explore-repository-SsBL1/origins/analysis/sweep.py	12308
+Origins-Of-Life-claude-explore-repository-SsBL1.zip	TODO/external_references/Origins-Of-Life-claude-explore-repository-SsBL1/origins/biology/__init__.py	151
+Origins-Of-Life-claude-explore-repository-SsBL1.zip	TODO/external_references/Origins-Of-Life-claude-explore-repository-SsBL1/origins/biology/protocell.py	3695
+Origins-Of-Life-claude-explore-repository-SsBL1.zip	TODO/external_references/Origins-Of-Life-claude-explore-repository-SsBL1/origins/biology/rna.py	11053
+Origins-Of-Life-claude-explore-repository-SsBL1.zip	TODO/external_references/Origins-Of-Life-claude-explore-repository-SsBL1/origins/chemistry/__init__.py	186
+Origins-Of-Life-claude-explore-repository-SsBL1.zip	TODO/external_references/Origins-Of-Life-claude-explore-repository-SsBL1/origins/chemistry/clay.py	2852
+Origins-Of-Life-claude-explore-repository-SsBL1.zip	TODO/external_references/Origins-Of-Life-claude-explore-repository-SsBL1/origins/chemistry/fields.py	4535
+Origins-Of-Life-claude-explore-repository-SsBL1.zip	TODO/external_references/Origins-Of-Life-claude-explore-repository-SsBL1/origins/constants.py	5392
+Origins-Of-Life-claude-explore-repository-SsBL1.zip	TODO/external_references/Origins-Of-Life-claude-explore-repository-SsBL1/origins/cosmology/__init__.py	286
+Origins-Of-Life-claude-explore-repository-SsBL1.zip	TODO/external_references/Origins-Of-Life-claude-explore-repository-SsBL1/origins/cosmology/operators.py	5946
+Origins-Of-Life-claude-explore-repository-SsBL1.zip	TODO/external_references/Origins-Of-Life-claude-explore-repository-SsBL1/origins/cosmology/pbh.py	7991
+Origins-Of-Life-claude-explore-repository-SsBL1.zip	TODO/external_references/Origins-Of-Life-claude-explore-repository-SsBL1/origins/scenarios.py	7616
+Origins-Of-Life-claude-explore-repository-SsBL1.zip	TODO/external_references/Origins-Of-Life-claude-explore-repository-SsBL1/origins/simulator/__init__.py	101
+Origins-Of-Life-claude-explore-repository-SsBL1.zip	TODO/external_references/Origins-Of-Life-claude-explore-repository-SsBL1/origins/simulator/universal.py	17800
+Origins-Of-Life-claude-explore-repository-SsBL1.zip	TODO/external_references/Origins-Of-Life-claude-explore-repository-SsBL1/origins/topology/__init__.py	165
+Origins-Of-Life-claude-explore-repository-SsBL1.zip	TODO/external_references/Origins-Of-Life-claude-explore-repository-SsBL1/origins/topology/constraints.py	3260
+Origins-Of-Life-claude-explore-repository-SsBL1.zip	TODO/external_references/Origins-Of-Life-claude-explore-repository-SsBL1/origins/topology/fields.py	5538
+Origins-Of-Life-claude-explore-repository-SsBL1.zip	TODO/external_references/Origins-Of-Life-claude-explore-repository-SsBL1/requirements.txt	115
+Origins-Of-Life-claude-explore-repository-SsBL1.zip	TODO/external_references/Origins-Of-Life-claude-explore-repository-SsBL1/scripts/run_cmb_analysis.py	2021
+Origins-Of-Life-claude-explore-repository-SsBL1.zip	TODO/external_references/Origins-Of-Life-claude-explore-repository-SsBL1/scripts/run_simulation.py	1816
+Origins-Of-Life-claude-explore-repository-SsBL1.zip	TODO/external_references/Origins-Of-Life-claude-explore-repository-SsBL1/scripts/run_sweep.py	2443
+Origins-Of-Life-claude-explore-repository-SsBL1.zip	TODO/external_references/Origins-Of-Life-claude-explore-repository-SsBL1/setup.py	846
+Origins-Of-Life-claude-explore-repository-SsBL1.zip	TODO/external_references/Origins-Of-Life-claude-explore-repository-SsBL1/spectrum.zip (1)_FILES/app.js	23369
+Origins-Of-Life-claude-explore-repository-SsBL1.zip	TODO/external_references/Origins-Of-Life-claude-explore-repository-SsBL1/spectrum.zip (1)_FILES/app_1.js	23369
+Origins-Of-Life-claude-explore-repository-SsBL1.zip	TODO/external_references/Origins-Of-Life-claude-explore-repository-SsBL1/spectrum.zip (1)_FILES/ciel-cmb-analyzer.zip/app.js	23369
+Origins-Of-Life-claude-explore-repository-SsBL1.zip	TODO/external_references/Origins-Of-Life-claude-explore-repository-SsBL1/spectrum.zip (1)_FILES/ciel-cmb-analyzer.zip/index.html	16955
+Origins-Of-Life-claude-explore-repository-SsBL1.zip	TODO/external_references/Origins-Of-Life-claude-explore-repository-SsBL1/spectrum.zip (1)_FILES/ciel-cmb-analyzer.zip/style.css	33896
+Origins-Of-Life-claude-explore-repository-SsBL1.zip	TODO/external_references/Origins-Of-Life-claude-explore-repository-SsBL1/spectrum.zip (1)_FILES/ciel0_cmb_analyzer_english.py	20927
+Origins-Of-Life-claude-explore-repository-SsBL1.zip	TODO/external_references/Origins-Of-Life-claude-explore-repository-SsBL1/spectrum.zip (1)_FILES/index.html	16955
+Origins-Of-Life-claude-explore-repository-SsBL1.zip	TODO/external_references/Origins-Of-Life-claude-explore-repository-SsBL1/spectrum.zip (1)_FILES/script.py	21910
+Origins-Of-Life-claude-explore-repository-SsBL1.zip	TODO/external_references/Origins-Of-Life-claude-explore-repository-SsBL1/spectrum.zip (1)_FILES/style.css	33896
+Origins-Of-Life-claude-explore-repository-SsBL1.zip	TODO/external_references/Origins-Of-Life-claude-explore-repository-SsBL1/tests/__init__.py	0
+Origins-Of-Life-claude-explore-repository-SsBL1.zip	TODO/external_references/Origins-Of-Life-claude-explore-repository-SsBL1/tests/test_biology.py	2925
+Origins-Of-Life-claude-explore-repository-SsBL1.zip	TODO/external_references/Origins-Of-Life-claude-explore-repository-SsBL1/tests/test_chemistry.py	2259
+Origins-Of-Life-claude-explore-repository-SsBL1.zip	TODO/external_references/Origins-Of-Life-claude-explore-repository-SsBL1/tests/test_simulator.py	2089
+Origins-Of-Life-claude-explore-repository-SsBL1.zip	TODO/external_references/Origins-Of-Life-claude-explore-repository-SsBL1/tests/test_topology.py	2400

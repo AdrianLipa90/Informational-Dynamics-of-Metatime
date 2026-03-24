@@ -1,0 +1,19 @@
+version: 1
+source_repo: AdrianLipa90/Informational-Dynamics-of-Metatime
+ref: main
+records:
+- path: heuristics_self.json
+  class: heuristic_weights
+  status: mirrored_from_public
+- path: heuristics_user.json
+  class: heuristic_weights
+  status: mirrored_from_public
+- path: rules_immutable.json
+  class: immutable_rules
+  status: mirrored_from_public
+- path: relational_contract.yaml
+  class: relational_contract_config
+  status: added_missing
+- path: relational_contract.py
+  class: relational_contract_runtime
+  status: added_missing

@@ -1,0 +1,82 @@
+{
+  "name": "master_priority",
+  "status": "active",
+  "scope": "whole_repository",
+  "source_of_truth": [
+    "AGENT.md",
+    "docs/roadmaps/MASTER_PRIORITY_PLAN.md"
+  ],
+  "global_rules": [
+    "always use full current repository as source of truth",
+    "do not work on isolated fragments for structural changes",
+    "synchronize manifests and docs after relevant modifications",
+    "report missing/disappearing files and build inconsistencies explicitly",
+    "prefer reproducibility before optimization"
+  ],
+  "priority_order": [
+    {
+      "id": "P0",
+      "title": "canonical integrity and hygiene",
+      "status": "completed",
+      "completed_substeps": [
+        "P0 audit",
+        "P0.1 manifest synchronization",
+        "P0.2 closeout and P1 handoff"
+      ],
+      "next_substep": "completed",
+      "last_updated": "2026-03-24"
+    },
+    {
+      "id": "P1",
+      "title": "memory/storage boundary formalization",
+      "status": "active_next",
+      "entry_checklist": "docs/roadmaps/P1_MEMORY_STORAGE_ENTRY_CHECKLIST.md",
+      "handoff_from": "reports/audit/P0_2_CLOSEOUT_AND_P1_HANDOFF_2026-03-24.md"
+    },
+    {
+      "id": "P2",
+      "title": "storage ports and interface extraction",
+      "status": "queued"
+    },
+    {
+      "id": "P3",
+      "title": "graph truth layer and nonlocal topology",
+      "status": "queued"
+    },
+    {
+      "id": "P4",
+      "title": "command quantization and admissibility rules",
+      "status": "queued"
+    },
+    {
+      "id": "P5",
+      "title": "braid/knot closure layer",
+      "status": "queued"
+    },
+    {
+      "id": "P6",
+      "title": "observability, traces, and replay",
+      "status": "queued"
+    },
+    {
+      "id": "P7",
+      "title": "optional native kernels and backend acceleration",
+      "status": "queued"
+    },
+    {
+      "id": "P8",
+      "title": "inference/runtime integration hardening",
+      "status": "queued"
+    },
+    {
+      "id": "P9",
+      "title": "documentation, glossary, LaTeX, and cross-reference completion",
+      "status": "queued"
+    },
+    {
+      "id": "P10",
+      "title": "packaging, release validation, and regression control",
+      "status": "queued"
+    }
+  ]
+}

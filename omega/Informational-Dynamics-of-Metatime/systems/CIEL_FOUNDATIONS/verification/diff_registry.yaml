@@ -1,0 +1,89 @@
+version: 1
+fields:
+- id
+- object
+- canon_source
+- raw_source
+- comparison_status
+- summary
+- actions
+records:
+- id: REC-2026-03-24-001
+  object: foundations-glossary-layer
+  canon_source: systems/CIEL_FOUNDATIONS/definitions/GLOSSARY.md
+  raw_source: CIEL_REPO_WITH_GLOSSARY_2026-03-24.zip
+  comparison_status: match_equivalent
+  summary: Promoted glossary source into foundations and rebuilt card/table cross-links.
+  actions:
+  - keep canon glossary
+  - rebuild tables
+  - preserve B1/B2 newer theory files
+- id: REC-2026-03-24-002
+  object: htri-simulation-results
+  canon_source: research/orbital_geodynamics_v{3,4,5}/results/
+  raw_source: HTRI_CIEL_symulacje.zip
+  comparison_status: match_equivalent
+  summary: Imported v3-v5 result bundles into research result folders without promoting
+    them to axioms or constants.
+  actions:
+  - copy results
+  - keep provenance by filename
+- id: REC-2026-03-24-003
+  object: rh-control-mini-repo
+  canon_source: systems/CIEL_OMEGA_COMPLETE_SYSTEM/ciel_omega/orbital/rh_control.py
+  raw_source: ciel_rh_control_mini_repo.zip
+  comparison_status: match_equivalent
+  summary: Extracted runtime-relevant RH control module and preserved source mini-repo
+    under external references.
+  actions:
+  - promote runtime module
+  - add unit test
+  - park raw source in TODO/external_references
+- id: REC-2026-03-24-004
+  object: postulates-canon
+  canon_source: POSTULATES_CANON_PL_EN.md ; systems/CIEL_FOUNDATIONS/postulates/POSTULATES_CANON_PL_EN.md
+  raw_source: CIEL_REPO_POSTULATES_CANON_2026-03-24.zip
+  comparison_status: match_equivalent
+  summary: Merged bilingual postulate canon into foundations, glossary, maps, manifests,
+    and LaTeX/documentation anchors.
+  actions:
+  - promote canon
+  - update glossary and axioms
+  - integrate nonlocal maps
+  - add phase-components block
+- id: REC-2026-03-24-005
+  object: phase-components-derivation
+  canon_source: systems/CIEL_FOUNDATIONS/derivations/D-0101-phase-components-from-aij-tau.md
+  raw_source: NONLOCAL_REPO_HYPERSPACE/ + phase_components bundle from postulates
+    canon mini-repo
+  comparison_status: match_equivalent
+  summary: Promoted tau/phase-components derivation with manifest, runner, report,
+    and numeric test.
+  actions:
+  - keep derivation
+  - add manifest/report/test
+  - bind to code_map
+- id: REC-2026-03-24-006
+  object: metatron-kernel
+  canon_source: TODO/external_references/metatron_kernel/
+  raw_source: metatron_kernel.py
+  comparison_status: conceptual_conflict
+  summary: Kernel preserved as external reference only because it mixes monitoring,
+    network I/O, and side-effectful orchestration beyond current canon boundaries.
+  actions:
+  - park external
+  - do not promote monolith
+  - require decomposition before canon adoption
+- id: REC-2026-03-24-007
+  object: public-informational-dynamics-reconciliation
+  canon_source: systems/CIEL_OMEGA_COMPLETE_SYSTEM/{configs/,LICENSE}
+  raw_source: GitHub public repo AdrianLipa90/Informational-Dynamics-of-Metatime
+  comparison_status: match_plus_missing_promoted
+  summary: 'Restored the value-bearing public packaging layer missing from canonical
+    position: top-level configs, relational contract pair, and LICENSE. Skipped the
+    public tarball artifact as redundant packaging.'
+  actions:
+  - mirror top-level public configs
+  - promote relational_contract pair
+  - restore top-level LICENSE
+  - skip redundant tarball artifact

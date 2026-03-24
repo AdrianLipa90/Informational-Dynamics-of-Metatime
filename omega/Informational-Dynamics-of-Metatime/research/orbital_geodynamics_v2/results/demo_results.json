@@ -1,0 +1,135 @@
+{
+  "engine": "Euler-Berry-Poincare-421",
+  "steps": 20,
+  "dt": 0.03,
+  "initial": {
+    "R_H": 0.10251700000000025,
+    "T_glob": 10.724069830429613,
+    "Lambda_glob": 0.11334882150669363,
+    "Delta_H": {
+      "real": -0.19750000000000006,
+      "imag": 0.2520133925012721
+    },
+    "vorticity": {
+      "constraints": 0.0615262540890882,
+      "fields": 0.10521208314603761,
+      "runtime": 0.4263843484434836,
+      "memory": -0.05924053582722784,
+      "bridge": -0.4004692982922627,
+      "vocabulary": -0.13341285155911875
+    },
+    "masses": {
+      "constraints": 2.500874695825813,
+      "fields": 2.101711580171842,
+      "runtime": 1.2071431967747024,
+      "memory": 2.39358759200425,
+      "bridge": 0.9859853366937344,
+      "vocabulary": 2.047778858367276
+    },
+    "theta": {
+      "constraints": 0.55,
+      "fields": 0.75,
+      "runtime": 1.55,
+      "memory": 1.05,
+      "bridge": 1.45,
+      "vocabulary": 0.7
+    },
+    "phases": {
+      "constraints": 0.0,
+      "fields": 1.0471975511965976,
+      "runtime": 2.0943951023931953,
+      "memory": 3.141592653589793,
+      "bridge": 4.1887902047863905,
+      "vocabulary": 5.235987755982989
+    },
+    "berry_phase": {
+      "constraints": 0.0,
+      "fields": 0.0,
+      "runtime": 0.0,
+      "memory": 0.0,
+      "bridge": 0.0,
+      "vocabulary": 0.0
+    },
+    "amplitudes": {
+      "constraints": 0.95,
+      "fields": 0.9,
+      "runtime": 1.0,
+      "memory": 0.98,
+      "bridge": 0.92,
+      "vocabulary": 0.88
+    },
+    "defects": {
+      "constraints": 0.02,
+      "fields": 0.02,
+      "runtime": 0.03,
+      "memory": 0.03,
+      "bridge": 0.04,
+      "vocabulary": 0.02
+    }
+  },
+  "final_after_20_steps": {
+    "R_H": 0.5601115654037859,
+    "T_glob": 10.701811551347687,
+    "Lambda_glob": 0.16929735061672907,
+    "Delta_H": {
+      "real": -0.0746151744466087,
+      "imag": -0.744677206006796
+    },
+    "vorticity": {
+      "constraints": -0.11231609154693928,
+      "fields": -0.030802688098083356,
+      "runtime": 0.5259045828714459,
+      "memory": 0.21486968558859795,
+      "bridge": -0.42452863428355747,
+      "vocabulary": -0.17312685453146384
+    },
+    "masses": {
+      "constraints": 2.554472173038355,
+      "fields": 2.2020115999536447,
+      "runtime": 1.2197982981964168,
+      "memory": 2.407078202954594,
+      "bridge": 0.9519812713495961,
+      "vocabulary": 1.9392059598215072
+    },
+    "theta": {
+      "constraints": 0.626223774340727,
+      "fields": 0.737139713552189,
+      "runtime": 1.5542021499939858,
+      "memory": 1.043473608952183,
+      "bridge": 1.5021058887508734,
+      "vocabulary": 0.7130875536164628
+    },
+    "phases": {
+      "constraints": 0.30686931336253265,
+      "fields": 1.250858407069052,
+      "runtime": 2.829823736302712,
+      "memory": 3.5236842158790886,
+      "bridge": 4.804564508881266,
+      "vocabulary": 5.57032990602305
+    },
+    "berry_phase": {
+      "constraints": 0.025840241881820086,
+      "fields": 0.026927588774511353,
+      "runtime": 0.3613620629051858,
+      "memory": 0.09547196484076238,
+      "bridge": 0.2797351857901463,
+      "vocabulary": 0.04013146257041009
+    },
+    "amplitudes": {
+      "constraints": 0.7767438256852813,
+      "fields": 0.748564064128583,
+      "runtime": 0.9596950947120806,
+      "memory": 0.868120510590063,
+      "bridge": 0.9186915784970113,
+      "vocabulary": 0.7392535099445733
+    },
+    "defects": {
+      "constraints": 0.16156410025089193,
+      "fields": 0.15808437918173407,
+      "runtime": 0.2384544552908651,
+      "memory": 0.16319957009333563,
+      "bridge": 0.21946385963017467,
+      "vocabulary": 0.14918705680617617
+    }
+  }
+}
