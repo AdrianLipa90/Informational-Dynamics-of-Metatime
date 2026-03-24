@@ -1,0 +1,30 @@
+{
+  "seed": 42,
+  "parameters": {
+    "T": 2500,
+    "N_RUNS_per_group": 300,
+    "ETA": 0.012,
+    "NOISE_SCALE": 0.018
+  },
+  "groups": [
+    {
+      "group": "low_distortion",
+      "n_runs": 300,
+      "mean_final_H": 8.840795626094842,
+      "median_final_H": 8.980017074922895,
+      "std_final_H": 1.0137134645584027,
+      "mean_theta": 0.9399999999999996,
+      "corr_finalH_theta": -7.904938975046058e-16
+    },
+    {
+      "group": "high_distortion",
+      "n_runs": 300,
+      "mean_final_H": 8.83959335683848,
+      "median_final_H": 8.960353453984155,
+      "std_final_H": 0.9015150452110522,
+      "mean_theta": 0.4500000000000001,
+      "corr_finalH_theta": -1.374910307400234e-15
+    }
+  ],
+  "note": "Synthetic validation only. Not empirical evidence."
+}

@@ -1,0 +1,39 @@
+name: NONLOCAL_REPO_HYPERSPACE
+identity: nonlocal information sector for repository structure
+orbital_level: 1
+spin: link
+secondary_spins:
+  - route
+  - stabilize
+  - report
+parent: ../README.md
+lateral_links:
+  - ../manifests/
+  - ../systems/
+  - ../docs/
+  - ../integrations/
+  - ../FAQ/
+children:
+  - registry.yaml
+  - maps/repo_hypergraph.yaml
+  - maps/semantic_bloch_localization.yaml
+  - indices/README.md
+  - TODO/README.md
+canonical_files:
+  - registry.yaml
+  - maps/repo_hypergraph.yaml
+  - maps/semantic_bloch_localization.yaml
+inputs:
+  - manifests
+  - readme_mesh
+  - runtime_structure
+  - research_topology
+outputs:
+  - hypergraph_of_relations
+  - semantic_bloch_localization
+  - future_routing_indices
+coherence_impact:
+  - global_relation_exposure
+  - semantic_stability
+  - dependency_navigation
+status: canonical_new_sector

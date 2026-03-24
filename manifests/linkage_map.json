@@ -1,0 +1,36 @@
+{
+  "canonical_runtime": "systems/CIEL_OMEGA_COMPLETE_SYSTEM",
+  "canonical_reason": [
+    "largest integrated tree",
+    "contains bridge/, constraints/, vocabulary/, memory/, runtime/",
+    "pytest passed in current environment",
+    "demos executed successfully"
+  ],
+  "reference_lineages": {
+    "memory_sector_reference": "systems/CIEL_OMEGA_MEMORY_REFERENCE_v3.1.7",
+    "vocabulary_reference": "systems/CIEL_OMEGA_VOCABULARY_REFERENCE",
+    "foundations_scaffold": "systems/CIEL_FOUNDATIONS"
+  },
+  "bridges": [
+    {
+      "symbol": "operator.information.i0",
+      "binding": "ciel_omega.fields.intention_field:IntentionField.I0",
+      "evidence": "demo_vocabulary_resolve.log / vocabulary.yaml"
+    },
+    {
+      "symbol": "constraint.euler",
+      "binding": "ciel_omega.constraints.euler_constraint:EulerConstraint.evaluate_unified_closure",
+      "evidence": "demo_vocabulary_resolve.log"
+    },
+    {
+      "symbol": "channel.holonomy.white_threads",
+      "binding": "ciel_omega.bridge.memory_core_phase_bridge:MemoryCorePhaseBridge.compute_white_thread_amplitude",
+      "evidence": "demo_vocabulary_resolve.log"
+    }
+  ],
+  "research_packages": {
+    "synthetic_validation": "research/holonomic_relations_research_grade",
+    "observed_data_pipeline": "research/holonomic_observed_end_to_end",
+    "observed_dataset_bundle": "data/observed_datasets_bundle"
+  }
+}

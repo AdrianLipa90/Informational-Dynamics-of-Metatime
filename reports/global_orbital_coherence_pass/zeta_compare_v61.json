@@ -1,0 +1,42 @@
+{
+  "no_zeta_final": {
+    "R_H": 0.1741950704424543,
+    "T_glob": 2.517630927074842,
+    "Lambda_glob": 0.16515625042112222,
+    "closure_penalty": 5.475675196133482,
+    "spectral_radius_A": 1.7167295085675216,
+    "spectral_gap_A": 0.7924822217348727,
+    "fiedler_L": 0.17065080143591746,
+    "zeta_enabled": false
+  },
+  "zeta_v6_emulated_final": {
+    "R_H": 8065747364961.677,
+    "T_glob": 5480.511833101992,
+    "Lambda_glob": 0.012882850411552453,
+    "closure_penalty": 373908.47128976096,
+    "spectral_radius_A": 3.9927436490436286,
+    "spectral_gap_A": 2.448509238888319,
+    "fiedler_L": 3.735384773778106,
+    "zeta_enabled": true,
+    "zeta_tetra_defect": 2.6500796034768365e-31,
+    "zeta_effective_tau": 0.3645,
+    "zeta_effective_phase": 3.3306690738754706e-16,
+    "zeta_coupling_norm": 4106.689737271993,
+    "zeta_coupling_norm_raw": 0.0005061015126068738
+  },
+  "zeta_v61_final": {
+    "R_H": 0.17474735152328796,
+    "T_glob": 2.524344873881046,
+    "Lambda_glob": 0.1658164176382378,
+    "closure_penalty": 5.476985499082318,
+    "spectral_radius_A": 1.7166751929023727,
+    "spectral_gap_A": 0.7924087904902131,
+    "fiedler_L": 0.17052235552636527,
+    "zeta_enabled": true,
+    "zeta_tetra_defect": 2.6500796034768365e-31,
+    "zeta_effective_tau": 0.3645,
+    "zeta_effective_phase": 3.3306690738754706e-16,
+    "zeta_coupling_norm": 0.004763267215925936,
+    "zeta_coupling_norm_raw": 0.5981770396353803
+  }
+}
