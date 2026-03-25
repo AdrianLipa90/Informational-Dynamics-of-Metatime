@@ -1,0 +1,125 @@
+schema: informational-dynamics-of-metatime/index-registry/v0.1
+meta:
+  authority: docs/INDEX.md
+  notes:
+    - This is a seed registry on branch Agent3.
+    - It is intended for audit, canonical routing, and duplicate control.
+    - Duplicate-candidate status is non-destructive and does not yet imply deletion.
+objects:
+  - id: DOC-IDM-0001
+    name: root_readme
+    layer: root_navigation
+    status: canonical
+    provenance_type: native
+    owner_layer: root
+    upstream: []
+    downstream:
+      - DOC-IDM-0002
+      - DOC-IDM-0003
+      - DOC-IDM-0004
+      - DOC-IDM-0005
+    path: README.md
+    placeholder: false
+  - id: RPT-IDM-0001
+    name: consolidation_report
+    layer: report
+    status: canonical
+    provenance_type: native
+    owner_layer: reports
+    upstream:
+      - DOC-IDM-0001
+    downstream:
+      - SRC-IDM-0001
+    path: reports/CONSOLIDATION_REPORT.md
+    placeholder: false
+  - id: DOC-IDM-0002
+    name: write_hygiene_procedure
+    layer: procedure
+    status: canonical
+    provenance_type: native
+    owner_layer: docs
+    upstream:
+      - DOC-IDM-0001
+    downstream: []
+    path: docs/procedures/CRITICAL_REPO_IDENTIFICATION_AND_WRITE_HYGIENE.md
+    placeholder: false
+  - id: DOC-IDM-0003
+    name: nonlocal_repo_hyperspace_readme
+    layer: topology
+    status: canonical
+    provenance_type: native
+    owner_layer: NONLOCAL_REPO_HYPERSPACE
+    upstream:
+      - DOC-IDM-0001
+    downstream: []
+    path: NONLOCAL_REPO_HYPERSPACE/README.md
+    placeholder: false
+  - id: DOC-IDM-0004
+    name: foundations_readme
+    layer: formal_source_of_truth
+    status: canonical
+    provenance_type: native
+    owner_layer: systems
+    upstream:
+      - DOC-IDM-0001
+    downstream:
+      - SRC-IDM-0001
+    path: systems/CIEL_FOUNDATIONS/README.md
+    placeholder: false
+  - id: DOC-IDM-0005
+    name: omega_runtime_readme
+    layer: runtime_source_of_truth
+    status: canonical
+    provenance_type: native
+    owner_layer: systems
+    upstream:
+      - DOC-IDM-0001
+      - RPT-IDM-0001
+    downstream:
+      - SRC-IDM-0001
+    path: systems/CIEL_OMEGA_COMPLETE_SYSTEM/README.md
+    placeholder: false
+  - id: SRC-IDM-0001
+    name: run_all_checks
+    layer: integration_runner
+    status: canonical
+    provenance_type: native
+    owner_layer: integrations
+    upstream:
+      - DOC-IDM-0004
+      - DOC-IDM-0005
+      - RPT-IDM-0001
+    downstream: []
+    path: integrations/run_all_checks.py
+    placeholder: false
+  - id: DUP-IDM-0001
+    name: nested_consolidation_report_duplicate_candidate
+    layer: duplicate_candidate
+    status: duplicate_candidate
+    provenance_type: native
+    owner_layer: omega_nested_tree
+    upstream:
+      - RPT-IDM-0001
+    downstream: []
+    path: omega/Informational-Dynamics-of-Metatime/reports/CONSOLIDATION_REPORT.md
+    placeholder: false
+  - id: DUP-IDM-0002
+    name: nested_cleaned_canon_inventory_duplicate_candidate
+    layer: duplicate_candidate
+    status: duplicate_candidate
+    provenance_type: native
+    owner_layer: omega_nested_tree
+    upstream: []
+    downstream: []
+    path: omega/Informational-Dynamics-of-Metatime/comparison_reports/cleaned_canon_inventory.tsv
+    placeholder: false
+  - id: DUP-IDM-0003
+    name: nested_clean_inventory_duplicate_candidate
+    layer: duplicate_candidate
+    status: duplicate_candidate
+    provenance_type: native
+    owner_layer: omega_nested_tree
+    upstream: []
+    downstream: []
+    path: omega/Informational-Dynamics-of-Metatime/comparison_reports_forensic/clean_inventory.tsv
+    placeholder: false
