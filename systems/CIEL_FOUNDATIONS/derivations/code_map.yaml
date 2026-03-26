@@ -1,0 +1,14 @@
+version: 1
+fields:
+- object
+- formal_source
+- code_module
+- tests
+- artifacts
+records:
+- object: phase-components-from-aij-tau
+  formal_source: systems/CIEL_FOUNDATIONS/derivations/D-0101-phase-components-from-aij-tau.md
+  code_module: integrations/run_phase_component_pass.py ; systems/CIEL_OMEGA_COMPLETE_SYSTEM/ciel_omega/orbital/{metrics,dynamics}.py
+    ; systems/CIEL_FOUNDATIONS/constants/tau/code.py
+  tests: systems/CIEL_OMEGA_COMPLETE_SYSTEM pytest ; systems/CIEL_FOUNDATIONS/tests/numeric/test_tau_phase_components.py
+  artifacts: reports/phase_components/summary.{md,json} ; manifests/orbital/phase_components.json

@@ -1,0 +1,39 @@
+{
+  "title": "orbital_control_manifest",
+  "type": "object",
+  "properties": {
+    "mode": {
+      "type": "string",
+      "enum": [
+        "safe",
+        "standard",
+        "deep"
+      ]
+    },
+    "phase_lock_enable": {
+      "type": "boolean"
+    },
+    "target_phase_shift": {
+      "type": "number"
+    },
+    "dt_override": {
+      "type": "number"
+    },
+    "zeta_coupling_scale": {
+      "type": "number"
+    },
+    "mu_phi": {
+      "type": "number"
+    },
+    "epsilon_hom": {
+      "type": "number"
+    },
+    "notes": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "mode",
+    "phase_lock_enable"
+  ]
+}

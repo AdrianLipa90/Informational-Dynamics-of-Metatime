@@ -1,0 +1,10 @@
+version: 1
+fields:
+  - id
+  - object
+  - canon_source
+  - raw_source
+  - comparison_status
+  - summary
+  - actions
+records: []

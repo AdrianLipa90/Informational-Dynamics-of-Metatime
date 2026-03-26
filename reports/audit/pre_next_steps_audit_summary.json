@@ -1,0 +1,81 @@
+{
+  "validation": {
+    "compileall": "passed",
+    "pytest_q": "..........................................................               [100%]\n58 passed in 3.12s",
+    "package_smoke": {
+      "closure_score": 0.9106189238797913,
+      "memory_cycle_index": 1,
+      "memory_semantic_key": "audit smoke run after path fix and cleanup",
+      "keys": [
+        "core_metrics",
+        "euler_metrics",
+        "input_text",
+        "memory_cycle_index",
+        "memory_semantic_key",
+        "vocabulary_metrics"
+      ]
+    },
+    "internal_h5_recreated_after_fix": false
+  },
+  "manifest": {
+    "matches": true,
+    "whole_system": {
+      "count": 307,
+      "fingerprint": "874926cee90af09544e09bca4a05432189bccb2e8f3161049b67fc09cbc76cee"
+    },
+    "code_docs": {
+      "count": 304,
+      "fingerprint": "9e9ed93e7d701afe0cee0d632799a51abe720fefe4a9e2e5a040d2b3fcc3c91c"
+    },
+    "ciel_omega": {
+      "count": 298,
+      "fingerprint": "98061d0ecd22860fc2ab31fd4c01ffa26141d88256a56cfc90346e3f2291fe0a"
+    }
+  },
+  "residue_before_cleanup": {
+    "pycache_dirs": 44,
+    "pyc_files": 279,
+    "pytest_cache_dirs": 1
+  },
+  "data_layer_artifacts": [
+    {
+      "path": "systems/CIEL_OMEGA_COMPLETE_SYSTEM/CIEL_MEMORY_SYSTEM/TSM/ledger/memory_ledger.db",
+      "size": 12288,
+      "sha256": "a34926b730016cc6b0b897680421127d51d65b3021a6dba079f0d368b37c2700"
+    },
+    {
+      "path": "systems/CIEL_OMEGA_COMPLETE_SYSTEM/ciel_omega/CIEL_MEMORY_SYSTEM/TSM/ledger/memory_ledger.db",
+      "size": 12288,
+      "sha256": "1131d054a13e88f00911c71c1e48f33727ca3f0f7d93f6516cb9ea11e97bdfb9"
+    },
+    {
+      "path": "systems/CIEL_OMEGA_COMPLETE_SYSTEM/CIEL_MEMORY_SYSTEM/WPM/wave_snapshots/wave_archive.h5",
+      "size": 1832,
+      "sha256": "7859c8aaf311c22e68f5c754b1a0bf31f26c1fcba902da4710d48f46446e8ea8"
+    }
+  ],
+  "crossref_registry_derivation_items_total": 27,
+  "key_crossref_examples": [
+    "NONLOCAL_REPO_HYPERSPACE/maps/semantic_bloch_localization.yaml",
+    "NONLOCAL_REPO_HYPERSPACE/registry.yaml",
+    "systems/CIEL_FOUNDATIONS/Simulations/registry.yaml",
+    "systems/CIEL_FOUNDATIONS/artifacts/registry.yaml",
+    "systems/CIEL_FOUNDATIONS/assumptions/registry.yaml",
+    "systems/CIEL_FOUNDATIONS/axioms/registry.yaml",
+    "systems/CIEL_FOUNDATIONS/benchmarks/registry.yaml",
+    "systems/CIEL_FOUNDATIONS/constants/I0/derivation.md",
+    "systems/CIEL_FOUNDATIONS/constants/Lambda0/derivation.md",
+    "systems/CIEL_FOUNDATIONS/constants/kappa/derivation.md",
+    "systems/CIEL_FOUNDATIONS/constants/registry.yaml",
+    "systems/CIEL_FOUNDATIONS/constants/tau/derivation.md"
+  ],
+  "runtime_bloch_writer_hits": [],
+  "fixes_applied": [
+    "resolved SyntaxWarning by converting compute_gradient docstring to raw string in TODO/loose_from_old/relational_contract.py",
+    "anchored monolith memory default paths to the system root in memory/monolith/orchestrator.py",
+    "anchored monolith CLI data/config paths to the system root in memory/monolith/cli.py",
+    "anchored legacy unified_memory defaults and backup/export paths to the system root in memory/monolith/unified_memory.py",
+    "removed package-internal WPM wave_archive.h5 generated during prior smoke run",
+    "re-synchronized CANONICAL_BUILD_MANIFEST.md after code/path fixes"
+  ]
+}
