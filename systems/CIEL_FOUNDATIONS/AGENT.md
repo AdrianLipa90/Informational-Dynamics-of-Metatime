@@ -1,148 +1,86 @@
 # AGENT.md
 
-## Purpose
+## Role of this repository
+This repository is the public first-principles theory layer for CIEL. It is not Omega runtime, not a recovery container, and not a mixed archive. Omega may later consume only stabilized exports from this tree.
 
-This file defines the operational rules for any agent, assistant, or automated process working inside `CIEL_FOUNDATIONS`.
+## Source-of-truth rule
+Source of truth is limited to:
+- Markdown / TeX for formal text
+- YAML for registries, interfaces, assumptions, provenance, and dependency maps
+- Python for executable realization
 
-The repository is the canonical source of truth for the project.
+PDF files are generated artifacts only.
 
----
+## Primary startup algorithm
+Every work session in this repository must begin with the following algorithm.
 
-## Core Operating Rule
+1. Re-read `README.md`, `PROJECT_CHARTER.md`, `ORGANIZATION.md`, `STRUCTURE.md`, and `ROADMAP.md`.
+2. Treat `main` as the only canonical base unless a branch is explicitly declared as the active working canon.
+3. Determine the exact target layer of the requested work:
+   - axiom
+   - definition
+   - derivation
+   - implementation
+   - test
+   - status / falsification
+   - interpretation
+4. Register or update the object before adding downstream prose or code.
+5. Check dependency direction explicitly:
+   - axioms -> definitions -> derivations -> code -> tests -> artifacts -> interpretation
+6. Do not add code without an upstream formal object.
+7. Do not add interpretation that introduces new equations, constants, or dependencies.
+8. Do not patch Omega-facing runtime logic into this repository.
+9. Before claiming completion, update all affected registries, links, and status markers.
+10. Before merge, verify that the change preserves a single source of truth and does not create parallel copies.
 
-After **every prompt / task / change**, the agent must update the repository state so that the repository remains globally synchronized.
+## Canonical workflow
+Axiom -> Definition -> Derivation -> Implementation -> Test -> Status -> Interpretation
 
-The agent must **never** treat a partial sector, fragment, temporary subset, isolated folder, or local scratch result as the project source of truth.
+## Hard gates
+A module may not be presented as stable or derived unless all of the following are true:
+- assumptions are explicit
+- interface is explicit
+- dependency links are explicit
+- tests exist
+- falsification target exists
+- provenance / artifacts can be traced
+- registry entries are synchronized
 
-The agent must always work against the **full, current repository**.
+## Public-repo hygiene
+This repository is public and theory-facing.
+It must not contain:
+- raw recovery snapshots
+- forensic merge debris
+- private logs or local databases
+- model binaries
+- Omega runtime source-of-truth logic
+- unpublished mixed archives
 
----
+Public theory objects must enter by allowlisted canonical placement, not by dumping mixed tarball contents.
 
-## Mandatory Rules
+## Planning rule
+Planning is not separate from structure.
+Every plan must identify:
+- current state
+- target state
+- dependency order
+- concrete next artifacts
+- tests / falsification criteria
+- registry changes required
 
-### 1. Full-repository discipline
-- Always use the full, up-to-date repository as the source of truth.
-- Never work as if one module, sector, folder, or temporary extract were the whole project.
-- Never perform project changes on detached fragments without propagating them back into the full repository structure.
+## Failure conditions
+Work is not complete if any of the following remains true:
+- the object is not registered
+- the dependency path is ambiguous
+- a placeholder is presented as derived content
+- interpretation outruns derivation
+- code exists without an upstream formal object
+- tests or falsification criteria are missing
+- multiple conflicting sources of truth exist for the same object
 
-### 2. Post-prompt synchronization
-After every prompt, the agent must check whether the prompt changes:
-- structure
-- glossary
-- derivations
-- constants
-- interfaces
-- simulations
-- verification
-- bibliography
-- operational modes
-- artifact/provenance records
-- roadmap / organization / methodology files
-
-If yes, the repository must be updated accordingly.
-
-### 3. Cross-reference integrity
-Any new object or modification must be checked for impact on:
-- `glossary/`
-- `derivations/dependency_graph.yaml`
-- `derivations/code_map.yaml`
-- `constants/registry.yaml`
-- `verification/diff_registry.yaml`
-- `assumptions/`
-- `decisions/`
-- `falsification/`
-- `Simulations/registry.yaml`
-- bibliography and whitepaper links
-
-### 4. No partial truth
-A local derivation, test, code snippet, notebook, or temporary file is not canonical until:
-- it is inserted into the repository,
-- linked to the proper registries,
-- assigned an epistemic status,
-- cross-referenced to its dependencies.
-
-### 5. Dual-track methodology must be preserved
-The agent must preserve all three tracks:
-- canon extraction
-- raw re-derivation
-- reconciliation
-
-No major object is considered closed until reconciliation status is recorded.
-
-### 6. Every stable object must be representable in repository form
-Each stable project object should be reflected through repository artifacts such as:
-- glossary row
-- glossary entry
-- derivation node
-- code binding
-- tests
-- status / reconciliation entry
-- artifact links where relevant
-
-### 7. Repository-wide consistency over local convenience
-If a local change is easy but would leave the rest of the repository inconsistent, the change is incomplete and must not be treated as finished.
-
-### 8. PDFs and tarballs are downstream artifacts
-Generated PDFs, tarballs, exports, and bundles are not the source of truth.
-They must be regenerated from the repository after the source state is updated.
-
----
-
-## Required Update Checklist
-
-When relevant, after each task the agent should verify and update:
-
-1. `README.md`
-2. `PROJECT_CHARTER.md`
-3. `ROADMAP.md`
-4. `STRUCTURE.md`
-5. `ORGANIZATION.md`
-6. `glossary/registry.csv`
-7. `glossary/registry.yaml`
-8. `glossary/entries/*`
-9. `axioms/registry.yaml`
-10. `derivations/dependency_graph.yaml`
-11. `derivations/code_map.yaml`
-12. `constants/registry.yaml`
-13. `verification/diff_registry.yaml`
-14. `assumptions/registry.yaml`
-15. `decisions/`
-16. `falsification/matrix.yaml`
-17. `interfaces/*.yaml`
-18. `Simulations/registry.yaml`
-19. `operational_modes/registry.yaml`
-20. `reverse_operational_modes/registry.yaml`
-21. `artifacts/registry.yaml`
-22. `provenance/lineage.yaml`
-
-Not every file must change after every prompt, but every prompt must be checked against the full repository impact surface.
-
----
-
-## Epistemic Rule
-
-The agent must not silently convert:
-- hypothesis into derivation,
-- fit into first-principles result,
-- interpretation into formal definition,
-- fragment into canonical whole.
-
-All such transitions must be explicit in repository state.
-
----
-
-## Completion Rule
-
-A task is not complete until:
-1. the relevant source files are updated,
-2. the repository is internally consistent,
-3. cross-references are not left stale,
-4. downstream artifact packaging is refreshed if needed.
-
----
-
-## Short Rule
-
-**Always work on the full, current repository.  
-Never treat a fragment as the whole project.  
-After every prompt, synchronize the repository state.**
+## Immediate priority of this repository
+1. Freeze the foundational axioms in canonical form.
+2. Populate definitions registries with real objects.
+3. Turn placeholders in initial conditions, closure, holonomy, tau, and genesis into executable minimal modules.
+4. Bind each module to tests and falsification entries.
+5. Export only stabilized operators/constants/constraints downstream to Omega.

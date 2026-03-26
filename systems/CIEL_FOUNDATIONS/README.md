@@ -40,15 +40,4 @@ Source of truth is stored in:
 - Python for executable realization
 
 PDF files are generated artifacts, not source of truth.
-
-
-
-## Canonical postulate anchor
-- `../../POSTULATES_CANON_PL_EN.md` — root-level bilingual canonical postulate set.
-- `axioms/AX-0100-canonical-relational-phase-postulates.md` — foundations-local bridge into the same canon.
-- `glossary/entries/canonical_postulates_relational_phase_formalism.md` — glossary entry for repo-wide cross-linking.
-
-## Recent promoted derivation
-- `derivations/D-0101-phase-components-from-aij-tau.md` — canonical note linking `tau_i`, `A_ij`, `Omega_ij`, `gamma_i^eff`, `Delta_H`, and the observation check.
-- `constants/tau/` now records the current orbital triad and the branch distinction versus historical neutrino seeds.
-- `tests/numeric/test_tau_phase_components.py` provides a minimal numeric sanity check for the tau helpers.
+# The-Fundamental-Theory-of-Informational-Relations
