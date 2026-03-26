@@ -1,0 +1,8 @@
+{
+  "verdict": "PASS",
+  "bifurcation": 1,
+  "weights": {
+    "novelty": 1.0,
+    "length": 7
+  }
+}

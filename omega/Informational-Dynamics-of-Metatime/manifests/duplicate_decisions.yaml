@@ -1,0 +1,25 @@
+schema: informational-dynamics-of-metatime/duplicate-decisions/v0.1
+meta:
+  authority: docs/audits/AGENT3_DUPLICATE_DECISION_SHEET.md
+  notes:
+    - Decisions here are branch-local on Agent3 until explicitly promoted.
+    - duplicate_candidate status is non-destructive.
+records:
+  - id: DUP-IDM-0001
+    canonical_candidate_path: reports/CONSOLIDATION_REPORT.md
+    duplicate_candidate_path: omega/Informational-Dynamics-of-Metatime/reports/CONSOLIDATION_REPORT.md
+    decision: keep_canonical_root
+    action_status: pending
+    reason: root report is already used by root README and visible top-level navigation
+  - id: DUP-IDM-0002
+    canonical_candidate_path: comparison_reports/cleaned_canon_inventory.tsv
+    duplicate_candidate_path: omega/Informational-Dynamics-of-Metatime/comparison_reports/cleaned_canon_inventory.tsv
+    decision: needs_manual_review
+    action_status: pending
+    reason: inventory artifacts should be compared before any pruning decision
+  - id: DUP-IDM-0003
+    canonical_candidate_path: comparison_reports_forensic/clean_inventory.tsv
+    duplicate_candidate_path: omega/Informational-Dynamics-of-Metatime/comparison_reports_forensic/clean_inventory.tsv
+    decision: needs_manual_review
+    action_status: pending
+    reason: forensic inventory should be checked for path or content drift before classification

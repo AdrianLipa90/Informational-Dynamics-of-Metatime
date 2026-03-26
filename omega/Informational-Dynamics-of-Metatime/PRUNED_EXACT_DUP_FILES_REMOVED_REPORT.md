@@ -1,0 +1,82 @@
+# PRUNED EXACT DUPLICATE FILES REMOVED REPORT
+
+- source root: `/mnt/data/PRUNED_NO_DUP_FOLDERS`
+- output root: `/mnt/data/PRUNED_EXACT_DUP_FILES_REMOVED`
+- duplicate groups processed: **96**
+- files in processed groups: **227**
+- removed duplicate loser files: **131**
+- removed empty directories: **14**
+- remaining files: **1033**
+
+## Policy
+- Prefer systems/CIEL_OMEGA_COMPLETE_SYSTEM/ciel_omega/ for runtime duplicates.
+- Prefer systems/CIEL_FOUNDATIONS/ for formal duplicates.
+- Prefer NONLOCAL_REPO_HYPERSPACE/, manifests/, docs/ for structural duplicates.
+- Prefer higher orbital_geodynamics version when exact duplicates remain across versions.
+- Penalize ARCHIVES, comparison_reports*, logs, TODO/external_references, RECOVERED_ARCHIVAL_SYSTEMS, and reference trees.
+- Penalize TODO paths when equivalent copies exist elsewhere.
+- Break ties by shallower path, then lexical order.
+
+## Sample processed groups
+- winner: `systems/CIEL_OMEGA_COMPLETE_SYSTEM/ciel_omega/TODO/latest_loose/BLOCH_NETWORK_COMMAND_QUANTIZATION.md` | group size: 2
+  - removed: `BLOCH_NETWORK_COMMAND_QUANTIZATION.md`
+- winner: `comparison_reports_forensic/clean_duplicates_by_name.tsv` | group size: 2
+  - removed: `comparison_reports_forensic/dirty_duplicates_by_name.tsv`
+- winner: `logs/compileall_foundations.log` | group size: 5
+  - removed: `logs/compileall_runtime.log`
+  - removed: `logs/holonomic_relations_research_grade.log`
+  - removed: `TODO/external_references/Origins-Of-Life-claude-explore-repository-SsBL1/tests/__init__.py`
+  - removed: `TODO/external_references/origins_planetary_biology_app/app/__init__.py`
+- winner: `systems/CIEL_OMEGA_COMPLETE_SYSTEM/ciel_omega/MEMORY_SECTOR_MANIFEST.md` | group size: 2
+  - removed: `systems/CIEL_OMEGA_MEMORY_REFERENCE_v3.1.7/MEMORY_SECTOR_MANIFEST.md`
+- winner: `systems/CIEL_OMEGA_COMPLETE_SYSTEM/ciel_omega/README.md` | group size: 3
+  - removed: `systems/CIEL_OMEGA_MEMORY_REFERENCE_v3.1.7/README.md`
+  - removed: `systems/RECOVERED_ARCHIVAL_SYSTEMS/CIEL_OMEGA_FIXED_ALL_6_BABOL_PATCHED/ciel_omega/README.md`
+- winner: `systems/CIEL_OMEGA_COMPLETE_SYSTEM/ciel_omega/demo_ciel_omega_complete.py` | group size: 3
+  - removed: `systems/CIEL_OMEGA_MEMORY_REFERENCE_v3.1.7/demo_ciel_omega_complete.py`
+  - removed: `systems/RECOVERED_ARCHIVAL_SYSTEMS/CIEL_OMEGA_FIXED_ALL_6_BABOL_PATCHED/ciel_omega/demo_ciel_omega_complete.py`
+- winner: `systems/CIEL_OMEGA_COMPLETE_SYSTEM/ciel_omega/demo_full_pipeline.py` | group size: 3
+  - removed: `systems/CIEL_OMEGA_MEMORY_REFERENCE_v3.1.7/demo_full_pipeline.py`
+  - removed: `systems/RECOVERED_ARCHIVAL_SYSTEMS/CIEL_OMEGA_FIXED_ALL_6_BABOL_PATCHED/ciel_omega/demo_full_pipeline.py`
+- winner: `systems/CIEL_OMEGA_COMPLETE_SYSTEM/ciel_omega/demo_holonomic_orchestrator.py` | group size: 2
+  - removed: `systems/CIEL_OMEGA_MEMORY_REFERENCE_v3.1.7/demo_holonomic_orchestrator.py`
+- winner: `systems/CIEL_OMEGA_COMPLETE_SYSTEM/ciel_omega/demo_holonomy_eba.py` | group size: 2
+  - removed: `systems/CIEL_OMEGA_MEMORY_REFERENCE_v3.1.7/demo_holonomy_eba.py`
+- winner: `systems/CIEL_OMEGA_COMPLETE_SYSTEM/ciel_omega/demo_m0_perceptual_memory.py` | group size: 2
+  - removed: `systems/CIEL_OMEGA_MEMORY_REFERENCE_v3.1.7/demo_m0_perceptual_memory.py`
+- winner: `systems/CIEL_OMEGA_COMPLETE_SYSTEM/ciel_omega/demo_m1_working_memory.py` | group size: 2
+  - removed: `systems/CIEL_OMEGA_MEMORY_REFERENCE_v3.1.7/demo_m1_working_memory.py`
+- winner: `systems/CIEL_OMEGA_COMPLETE_SYSTEM/ciel_omega/demo_m3_semantic_memory.py` | group size: 2
+  - removed: `systems/CIEL_OMEGA_MEMORY_REFERENCE_v3.1.7/demo_m3_semantic_memory.py`
+- winner: `systems/CIEL_OMEGA_COMPLETE_SYSTEM/ciel_omega/demo_m4_procedural_memory.py` | group size: 2
+  - removed: `systems/CIEL_OMEGA_MEMORY_REFERENCE_v3.1.7/demo_m4_procedural_memory.py`
+- winner: `systems/CIEL_OMEGA_COMPLETE_SYSTEM/ciel_omega/demo_m5_affective_memory.py` | group size: 2
+  - removed: `systems/CIEL_OMEGA_MEMORY_REFERENCE_v3.1.7/demo_m5_affective_memory.py`
+- winner: `systems/CIEL_OMEGA_COMPLETE_SYSTEM/ciel_omega/demo_m6_identity_memory.py` | group size: 2
+  - removed: `systems/CIEL_OMEGA_MEMORY_REFERENCE_v3.1.7/demo_m6_identity_memory.py`
+- winner: `systems/CIEL_OMEGA_COMPLETE_SYSTEM/ciel_omega/demo_memory_system.py` | group size: 2
+  - removed: `systems/CIEL_OMEGA_MEMORY_REFERENCE_v3.1.7/demo_memory_system.py`
+- winner: `systems/CIEL_OMEGA_COMPLETE_SYSTEM/ciel_omega/demo_validation_fixes.py` | group size: 2
+  - removed: `systems/CIEL_OMEGA_MEMORY_REFERENCE_v3.1.7/demo_validation_fixes.py`
+- winner: `systems/CIEL_OMEGA_COMPLETE_SYSTEM/ciel_omega/test_holonomic_orchestrator.py` | group size: 2
+  - removed: `systems/CIEL_OMEGA_MEMORY_REFERENCE_v3.1.7/test_holonomic_orchestrator.py`
+- winner: `systems/CIEL_OMEGA_COMPLETE_SYSTEM/ciel_omega/test_memory_sector_integration.py` | group size: 2
+  - removed: `systems/CIEL_OMEGA_MEMORY_REFERENCE_v3.1.7/test_memory_sector_integration.py`
+- winner: `systems/CIEL_OMEGA_COMPLETE_SYSTEM/ciel_omega/HOW_AI_WORKS_WITH_CIEL.md` | group size: 2
+  - removed: `systems/RECOVERED_ARCHIVAL_SYSTEMS/CIEL_OMEGA_FIXED_ALL_6_BABOL_PATCHED/ciel_omega/HOW_AI_WORKS_WITH_CIEL.md`
+
+## Removed empty directories (sample)
+- `systems/CIEL_OMEGA_COMPLETE_SYSTEM/ciel_omega/CIEL_MEMORY_SYSTEM/WPM/wave_snapshots`
+- `systems/CIEL_OMEGA_COMPLETE_SYSTEM/ciel_omega/CIEL_MEMORY_SYSTEM/WPM`
+- `systems/CIEL_FOUNDATIONS/src/ciel_foundations/sectors`
+- `systems/CIEL_FOUNDATIONS/src/ciel_foundations/utils`
+- `systems/CIEL_FOUNDATIONS/LaTeX/bib`
+- `systems/CIEL_FOUNDATIONS/LaTeX/figures`
+- `systems/CIEL_FOUNDATIONS/LaTeX/publications`
+- `systems/CIEL_FOUNDATIONS/definitions/constants`
+- `systems/CIEL_FOUNDATIONS/definitions/operators`
+- `systems/CIEL_FOUNDATIONS/definitions/spaces`
+- `systems/CIEL_FOUNDATIONS/tests/regression`
+- `systems/CIEL_FOUNDATIONS/tests/symbolic`
+- `research/holonomic_observed_end_to_end/data`
+- `reports/glossary`

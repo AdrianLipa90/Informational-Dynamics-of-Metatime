@@ -1,0 +1,68 @@
+schema: informational-dynamics-of-metatime/duplicate-cleanup-priority/v0.1
+meta:
+  priority: highest
+  rule: duplicate cleanup before broader indexing or further consolidation
+  notes:
+    - Root tree outranks nested omega mirror unless explicitly reclassified otherwise.
+    - Archive copies do not become canonical replacements; they are evidence-preserving sinks.
+records:
+  - id: DUP-ROOT-OMEGA-0001
+    canonical_path: TODO/
+    duplicate_path: omega/Informational-Dynamics-of-Metatime/TODO/
+    decision: keep_root_todo_authority
+    next_action: demote_nested_to_legacy
+    status: active_priority
+  - id: DUP-ROOT-OMEGA-0002
+    canonical_path: NONLOCAL_REPO_HYPERSPACE/
+    duplicate_path: omega/Informational-Dynamics-of-Metatime/NONLOCAL_REPO_HYPERSPACE/
+    decision: keep_root_nonlocal_tree
+    next_action: classify_nested_as_legacy_mirror
+    status: active_priority
+  - id: DUP-ROOT-OMEGA-0003
+    canonical_path: systems/CIEL_FOUNDATIONS/
+    duplicate_path: omega/Informational-Dynamics-of-Metatime/systems/CIEL_FOUNDATIONS/
+    decision: keep_root_foundations_tree
+    next_action: compare_then_demote_nested
+    status: active_priority
+  - id: DUP-ROOT-OMEGA-0004
+    canonical_path: systems/CIEL_OMEGA_COMPLETE_SYSTEM/
+    duplicate_path: omega/Informational-Dynamics-of-Metatime/systems/CIEL_OMEGA_COMPLETE_SYSTEM/
+    decision: keep_root_runtime_tree
+    next_action: compare_then_demote_nested
+    status: active_priority
+  - id: DUP-ROOT-OMEGA-0005
+    canonical_path: comparison_reports/
+    duplicate_path: omega/Informational-Dynamics-of-Metatime/comparison_reports/
+    decision: archive_and_demote_both_legacy_layers
+    next_action: preserve_archive_entry_points_then_remove_nested_authority
+    status: active_priority
+  - id: DUP-ROOT-OMEGA-0006
+    canonical_path: comparison_reports_last_merge/
+    duplicate_path: omega/Informational-Dynamics-of-Metatime/comparison_reports_last_merge/
+    decision: archive_and_demote_both_legacy_layers
+    next_action: preserve_archive_entry_points_then_remove_nested_authority
+    status: active_priority
+  - id: DUP-ROOT-OMEGA-0007
+    canonical_path: comparison_reports_forensic/
+    duplicate_path: omega/Informational-Dynamics-of-Metatime/comparison_reports_forensic/
+    decision: archive_and_demote_both_legacy_layers
+    next_action: preserve_archive_entry_points_then_remove_nested_authority
+    status: active_priority
+  - id: DUP-ROOT-OMEGA-0008
+    canonical_path: comparison_reports_recovery/
+    duplicate_path: omega/Informational-Dynamics-of-Metatime/comparison_reports_recovery/
+    decision: archive_and_demote_both_legacy_layers
+    next_action: preserve_archive_entry_points_then_remove_nested_authority
+    status: active_priority
+  - id: DUP-ROOT-OMEGA-0009
+    canonical_path: reports/
+    duplicate_path: omega/Informational-Dynamics-of-Metatime/reports/
+    decision: keep_root_reports_tree
+    next_action: migrate nested audit_debug entry_points to ARCHIVES and remove nested authority
+    status: active_priority
+  - id: DUP-ROOT-OMEGA-0010
+    canonical_path: logs/
+    duplicate_path: omega/Informational-Dynamics-of-Metatime/logs/
+    decision: keep_root_logs_tree
+    next_action: preserve representative nested logs in ARCHIVES then demote nested mirror
+    status: active_priority

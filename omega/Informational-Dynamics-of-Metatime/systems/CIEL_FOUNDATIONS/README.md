@@ -52,9 +52,3 @@ PDF files are generated artifacts, not source of truth.
 - `derivations/D-0101-phase-components-from-aij-tau.md` — canonical note linking `tau_i`, `A_ij`, `Omega_ij`, `gamma_i^eff`, `Delta_H`, and the observation check.
 - `constants/tau/` now records the current orbital triad and the branch distinction versus historical neutrino seeds.
 - `tests/numeric/test_tau_phase_components.py` provides a minimal numeric sanity check for the tau helpers.
-
-
-## Navigation layer
-- `INDEX.md` — canonical navigation across axioms, definitions, derivations, constants, sectors, tests, and provenance.
-- `sectors/SECTOR_INDEX.md` — sector inheritance order and promotion requirements.
-- `LaTeX/sections/FOUNDATIONAL_POSTULATES.tex` — publication-ready LaTeX seed for the postulate canon.

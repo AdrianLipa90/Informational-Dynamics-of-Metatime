@@ -25,17 +25,6 @@ This artifact is a merged Python system that combines:
 
 It is not a single monolithic script. It is a modular package centered around `ciel_omega/` with demos, tests, and support files.
 
-## Public repository reconciliation
-
-This local canonical build now preserves the value-bearing top-level public packaging items from `AdrianLipa90/Informational-Dynamics-of-Metatime` that were previously missing in canonical position:
-
-- top-level `configs/` layer restored under `./configs/`
-- `relational_contract.yaml` restored
-- `relational_contract.py` restored and mirrored into `ciel_omega/configs/`
-- top-level `LICENSE` restored
-
-The public tarball artifact was deliberately **not** re-imported because its unpacked runtime content is already present in this repo and treating the binary archive as canonical source would create duplication without adding runtime or derivational value.
-
 ## Current health of the build
 
 Verified on this packaged build:

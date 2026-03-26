@@ -1,0 +1,3 @@
+[console_scripts]
+ciel-engine = ciel.cli:run_engine
+ciel-smoke = ciel.cli:smoke_test

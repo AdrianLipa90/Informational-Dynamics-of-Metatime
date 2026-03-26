@@ -1,6 +1,6 @@
 # Definitions
 
-This sector contains canonical glossary cards plus operator/space/constant overlays.
+This sector now contains canonical glossary cards.
 
 ## Rule
 One formal object per card.
@@ -20,9 +20,7 @@ Each card must have:
 - `tables/GLOSSARY_MASTER_TABLE.md` - compact search table
 - `tables/glossary_master.csv` - machine-readable compact table
 - `tags.yaml` - tag taxonomy
-- `operators/` - operator-level navigation summaries
-- `spaces/` - canonical geometry/state-space summaries
-- `constants/` - constant-level navigation summaries
+
 
 ## Canonical postulate linkage
 - `../../../POSTULATES_CANON_PL_EN.md` - repo-level bilingual postulate canon

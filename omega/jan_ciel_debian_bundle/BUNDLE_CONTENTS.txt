@@ -1,0 +1,8 @@
+Included bundle components:
+- Jan_0.7.8_amd64.deb
+- ciel_omega/ (patched)
+- ciel_jan_bridge/
+- install_jan_debian.sh
+- start_jan_with_ciel_debian.sh
+- stop_ciel_bridge.sh
+- README_DEBIAN_PL.md

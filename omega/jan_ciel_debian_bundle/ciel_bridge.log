@@ -1,0 +1,3 @@
+CIEL/Ω Jan bridge listening on http://127.0.0.1:8080
+CIEL root: /home/adrian/Pulpit/omega/jan_ciel_debian_bundle/ciel_omega
+GGUF model: none (bridge will return structured CIEL output if no backend is available)
