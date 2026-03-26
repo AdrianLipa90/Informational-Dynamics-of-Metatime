@@ -21,6 +21,9 @@ from typing import Any, Dict, Optional
 from memory.monolith.orchestrator import UnifiedMemoryOrchestrator
 
 
+_SYSTEM_ROOT = Path(__file__).resolve().parents[3]
+
+
 # -- Kernel adapter ---------------------------------------------------------
 
 def capture_wave(amplitude, phase=None, attrs: Optional[Dict[str, Any]] = None) -> Dict[str, str]:
@@ -46,8 +49,8 @@ def capture_wave(amplitude, phase=None, attrs: Optional[Dict[str, Any]] = None) 
 
 def _cli_status(args) -> int:
     print("[CIEL-Memory] status OK")
-    print("DB:", Path("CIEL_MEMORY_SYSTEM/TSM/ledger/memory_ledger.db").resolve())
-    print("H5:", Path("CIEL_MEMORY_SYSTEM/WPM/wave_snapshots/wave_archive.h5").resolve())
+    print("DB:", (_SYSTEM_ROOT / "CIEL_MEMORY_SYSTEM" / "TSM" / "ledger" / "memory_ledger.db").resolve())
+    print("H5:", (_SYSTEM_ROOT / "CIEL_MEMORY_SYSTEM" / "WPM" / "wave_snapshots" / "wave_archive.h5").resolve())
     return 0
 
 
@@ -74,11 +77,11 @@ def _cli_verify(args) -> int:
 def _cli_backup(args) -> int:
     target = Path(args.output or "ciel_memory_backup.zip")
     with zipfile.ZipFile(target, "w", zipfile.ZIP_DEFLATED) as z:
-        for base in ["CIEL_MEMORY_SYSTEM", "configs"]:
+        for base in [_SYSTEM_ROOT / "CIEL_MEMORY_SYSTEM", _SYSTEM_ROOT / "configs"]:
             for root, _, files in os.walk(base):
                 for f in files:
                     p = Path(root) / f
-                    z.write(p, p.as_posix())
+                    z.write(p, p.relative_to(_SYSTEM_ROOT).as_posix())
     sha = hashlib.sha256(target.read_bytes()).hexdigest()
     print("Backup:", target, "SHA256:", sha)
     return 0
@@ -87,7 +90,7 @@ def _cli_backup(args) -> int:
 def _cli_export(args) -> int:
     out = Path(args.output or "export")
     out.mkdir(parents=True, exist_ok=True)
-    src_db = Path("CIEL_MEMORY_SYSTEM/TSM/ledger/memory_ledger.db")
+    src_db = _SYSTEM_ROOT / "CIEL_MEMORY_SYSTEM" / "TSM" / "ledger" / "memory_ledger.db"
     if src_db.exists():
         (out / "memory_ledger.db").write_bytes(src_db.read_bytes())
     (out / "README.txt").write_text("Export bundle for CIEL-Memory.\n", encoding="utf-8")

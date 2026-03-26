@@ -19,3 +19,8 @@ axioms:
     name: Constants from Closure
     status: axiom
     summary: Fundamental constants are invariants of arithmetic-geometric closure.
+
+  - id: AX-0100
+    name: Canonical Relational-Phase Postulates
+    status: axiom_bridge
+    summary: Repo-level bilingual postulate canon linking ontology, emergence, holonomic coupling, memory, and deformation cost.

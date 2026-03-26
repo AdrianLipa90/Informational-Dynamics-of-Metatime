@@ -165,7 +165,7 @@ class RelationalContract:
 
     def compute_gradient(self, gamma: Dict[str, float], gamma_dot: Dict[str, float],
                          distortion_flags: Dict[str, bool]) -> Dict[str, float]:
-        """
+        r"""
         Compute gradient of the action with respect to γ_S, γ_C, γ_T.
         We approximate the Euler-Lagrange equations: d/dt (∂L/∂\dot{γ}) = ∂L/∂γ.
         The gradient for a simple gradient descent on the potential part is derived.

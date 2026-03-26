@@ -42,3 +42,29 @@ New concept note:
 - `integrations/run_gguf_three_prompt_orbital.py` three-prompt GGUF + orbital middleware runner
 
 - `docs/concepts/GGUF_THREE_PROMPT_ORBITAL_RUNNER.md` runner description and scope
+
+- `integrations/run_orbital_phase_control_pass.py` HTRI-style phase control pass for orbital manifests
+
+- `manifests/orbital/state.json` live orbital state manifest
+
+- `manifests/orbital/control.json` live orbital control manifest
+
+- `manifests/orbital/health.json` live orbital health manifest
+
+Active repository-wide priority:
+- `AGENT.md` global operating rule
+- `docs/roadmaps/MASTER_PRIORITY_PLAN.md` canonical whole-repo priority plan
+- `manifests/orbital/master_priority.json` machine-readable priority manifest
+
+
+
+Canonical postulates:
+- `POSTULATES_CANON_PL_EN.md` bilingual frozen postulate canon for the relational-phase formalism
+- `systems/CIEL_FOUNDATIONS/axioms/AX-0100-canonical-relational-phase-postulates.md` local foundations anchor for the same canon
+- `systems/CIEL_FOUNDATIONS/glossary/entries/canonical_postulates_relational_phase_formalism.md` glossary-facing cross-link entry
+
+Phase decomposition and observation check:
+- `integrations/run_phase_component_pass.py` derives the runtime phase components and writes canonical reports.
+- `reports/phase_components/summary.md` phase decomposition, transport terms, and benchmark comparison.
+- `manifests/orbital/phase_components.json` machine-readable phase registry for the current orbital run.
+- `systems/CIEL_FOUNDATIONS/derivations/D-0101-phase-components-from-aij-tau.md` derivation note linking `tau_i`, `A_ij`, `Omega_ij` and `Delta_H`.

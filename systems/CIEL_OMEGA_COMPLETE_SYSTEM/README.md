@@ -4,6 +4,15 @@ Canonical merged build of the CIEL/Ω runtime, memory sector, vocabulary layer, 
 
 This README describes the **actual structure and current behavior** of the packaged system at `/CIEL_OMEGA_COMPLETE_SYSTEM`, based on direct inspection and runtime tests of the build.
 
+
+## Axiomatic anchor
+The runtime-facing orbital and closure machinery is globally anchored to:
+- `../../POSTULATES_CANON_PL_EN.md`
+- `../CIEL_FOUNDATIONS/axioms/AX-0100-canonical-relational-phase-postulates.md`
+- `../CIEL_FOUNDATIONS/derivations/D-0101-phase-components-from-aij-tau.md`
+
+These files define the current repo-level postulate canon, the local foundations bridge, and the closest derivation note linking transport, tau modes, phase closure, and holonomic residuals.
+
 ## What this build is
 
 This artifact is a merged Python system that combines:
@@ -35,7 +44,7 @@ The warnings are mostly `PytestReturnNotNoneWarning` from tests that return valu
 
 ## Package size and structure
 
-Inside `ciel_omega/` there are currently **244 Python files**.
+Inside `ciel_omega/` there are currently **258 Python files** including `TODO/`, or **244 Python files** when `TODO/` is excluded.
 
 Largest subsystems by file count:
 

@@ -26,6 +26,21 @@
       "symbol": "channel.holonomy.white_threads",
       "binding": "ciel_omega.bridge.memory_core_phase_bridge:MemoryCorePhaseBridge.compute_white_thread_amplitude",
       "evidence": "demo_vocabulary_resolve.log"
+    },
+    {
+      "symbol": "functional.holonomy.closure",
+      "binding": "docs/concepts/NON_ARBITRARY_HOLONOMY_CLOSURE_B1_B2.md",
+      "evidence": "B1_B2_REGISTRY_UPDATE_2026-03-24.md / vocabulary.yaml"
+    },
+    {
+      "symbol": "observable.transport.spectrum",
+      "binding": "research/holonomy_closure_b1_b2/results.json",
+      "evidence": "solve_b1_b2.py / vocabulary.yaml"
+    },
+    {
+      "symbol": "observable.cp.triangle_loop_phase",
+      "binding": "research/holonomy_closure_b1_b2/results.json",
+      "evidence": "solve_b1_b2.py / vocabulary.yaml"
     }
   ],
   "research_packages": {
