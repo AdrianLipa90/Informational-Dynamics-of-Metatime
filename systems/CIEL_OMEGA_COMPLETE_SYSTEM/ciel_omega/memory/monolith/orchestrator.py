@@ -22,14 +22,17 @@ from memory.monolith.tsm_storage import TSMWriterSQL
 from memory.monolith.wpm_storage import WPMWriterHDF5
 
 
+_SYSTEM_ROOT = Path(__file__).resolve().parents[3]
+
+
 class UnifiedMemoryOrchestrator:
     """Full pipeline: capture → TMP gate → bifurcation → dual durable save."""
 
     def __init__(
         self,
-        cfg_dir: Path = Path("configs"),
-        tsm_db: Path = Path("CIEL_MEMORY_SYSTEM/TSM/ledger/memory_ledger.db"),
-        wpm_h5: Path = Path("CIEL_MEMORY_SYSTEM/WPM/wave_snapshots/wave_archive.h5"),
+        cfg_dir: Path = _SYSTEM_ROOT / "configs",
+        tsm_db: Path = _SYSTEM_ROOT / "CIEL_MEMORY_SYSTEM" / "TSM" / "ledger" / "memory_ledger.db",
+        wpm_h5: Path = _SYSTEM_ROOT / "CIEL_MEMORY_SYSTEM" / "WPM" / "wave_snapshots" / "wave_archive.h5",
     ):
         cfg_dir.mkdir(parents=True, exist_ok=True)
         tsm_db.parent.mkdir(parents=True, exist_ok=True)

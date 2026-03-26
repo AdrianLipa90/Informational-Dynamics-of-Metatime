@@ -74,3 +74,12 @@ This sector is intended to expose global relation structure and reduce semantic 
 - assign Bloch-like coordinates to top-level layers
 - define nonlocal routing rules
 - connect with README mesh and future AGENT mesh
+
+
+## Canonical theory anchor
+This nonlocal topology sector is globally cross-linked to:
+- `../POSTULATES_CANON_PL_EN.md`
+- `../systems/CIEL_FOUNDATIONS/axioms/AX-0100-canonical-relational-phase-postulates.md`
+- `../systems/CIEL_FOUNDATIONS/glossary/entries/canonical_postulates_relational_phase_formalism.md`
+
+The postulate canon supplies the repo-level ordering from relation and boundary to holonomic coupling, white threads, memory, and deformation cost.

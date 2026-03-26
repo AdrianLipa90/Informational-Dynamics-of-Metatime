@@ -40,3 +40,4 @@ Source of truth is stored in:
 - Python for executable realization
 
 PDF files are generated artifacts, not source of truth.
+# The-Fundamental-Theory-of-Informational-Relations

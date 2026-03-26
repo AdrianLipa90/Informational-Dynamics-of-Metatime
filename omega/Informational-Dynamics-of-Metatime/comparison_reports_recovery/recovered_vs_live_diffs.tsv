@@ -1,9 +1,0 @@
-label	relative_path	recovered_size	live_size	recovered_chars	live_chars	decision_hint
-fixed_all_6_vs_live_omega	vocabulary/test_gguf_pipeline.py	17894	12256	17781	12168	recovered_fuller
-fixed_all_6_vs_live_omega	vocabulary/orchestrator.py	17042	16764	17015	16740	recovered_fuller
-fixed_all_6_vs_live_omega	vocabulary/core_concepts.py	22351	22345	22172	22166	recovered_fuller
-fixed_all_6_vs_live_omega	vocabulary/demo_core_concepts.py	11528	7990	11456	7924	recovered_fuller
-fixed_all_6_vs_live_omega	vocabulary/extended_concepts.py	9735	8453	9727	8445	recovered_fuller
-fixed_all_6_vs_live_omega	vocabulary/transcendent.py	11791	9504	11764	9483	recovered_fuller
-fixed_all_6_vs_live_omega	vocabulary/test_comprehensive.py	15087	9111	14998	9031	recovered_fuller
-fixed_all_6_vs_live_omega	memory/__init__.py	96	3957	93	3956	live_fuller_or_equal
