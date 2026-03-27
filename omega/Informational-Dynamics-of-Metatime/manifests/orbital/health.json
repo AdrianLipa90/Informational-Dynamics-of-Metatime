@@ -1,9 +1,0 @@
-{
-  "system_health": 0.569884457645801,
-  "risk_level": "low",
-  "closure_penalty": 6.188132507053377,
-  "R_H": 0.07746348859195255,
-  "T_glob": 2.583958108543726,
-  "Lambda_glob": 0.09681519663524234,
-  "recommended_action": "deep diagnostics allowed"
-}

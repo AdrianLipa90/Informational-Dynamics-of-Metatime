@@ -1,9 +1,0 @@
-comparison_status:
-  - match_exact
-  - match_equivalent
-  - notation_only
-  - hidden_assumption_found
-  - fit_leak_found
-  - derivation_gap
-  - implementation_bug
-  - conceptual_conflict
